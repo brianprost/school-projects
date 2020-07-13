@@ -1,4 +1,4 @@
-# ubzrjbex-4
+# final-project
 
 A program that reads a CSV file of US Crime data. This data was supplied by the University. It provides the user the option to receive statistical analysis on the following:
 
