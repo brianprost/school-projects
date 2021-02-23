@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Concurrency? More like CRYPTOcurrency{% endblock %}
+
+{% block content %}
+
+<div class="info-box">
+    <!--Listen, I know this text effect is stupid. That's it. That's all I had to say-->
+    <h1 class="main-title">All About Crypto</h1>
+    <h2>Not actually all, really just the <em>basics</em>.</h2>
+    <p>This is your one stop shop for the three most talked about crypto currencies.</p>
+    <p>When I say “one stop shop,” I mean it as to say this is like a convenience store at a gas station:</p>
+    <ul>
+        <li>Are you going to get a lot out of it?<em> No</em></li>
+        <br />
+        <li>Are you going to get <strong>something?</strong><em> Probably</em>, but you really shouldn’t have.</li>
+        <br />
+    </ul>
+    <h4>The top three crypto currencies right now are:</h4>
+    <ol>
+        <li><a href="{{ url_for('bitcoin_page') }}">Bitcoin</a></li>
+        <br />
+        <li><a href="{{ url_for('ethereum_page') }}">Ethereum</a></li>
+        <br />
+        <li><a href="{{ url_for('dogecoin_page') }}">Dogecoin</a></li>
+        <br />
+    </ol>
+</div>
+{% endblock %}

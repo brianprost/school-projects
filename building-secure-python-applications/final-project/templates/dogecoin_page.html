@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Dogecoin{% endblock %}
+
+{% block content %}
+<h1 class="coin-title">Dogecoin</h1>
+<div class="info-box">
+    <h2>Much value. Very crypto</h2>
+    <h3>Current Trading Price as of {{ date_and_time }} is <br />{{ price }}</h3>
+    <p>Dogecoin is a cryptocurrency that was created as a joke — its name is a reference to a
+        popular Internet meme. It shares many features with Litecoin. However, unlike Litecoin,
+        there is no hard cap on the number of Dogecoins that can be produced.<br />
+        <a href="https://www.coinbase.com/price/dogecoin">(Coinbase, 2020)</a>
+    </p>
+    <h4><a href="{{ white_paper }}">Whitepaper</a></h4>
+    <a href="{{ url_for('welcome_page') }}"><button class="return-home-button">Return Home</button></a>
+</div>
+{% endblock %}
