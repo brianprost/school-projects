@@ -112,3 +112,55 @@ ol {
 .return-home-button a {
   text-decoration: none;
 }
+
+table.coin_table {
+  font-family: Verdana, Geneva, sans-serif;
+  border: 1px solid #ffffff;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  text-shadow: none;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table.coin_table td,
+table.coin_table th {
+  border: 1px solid #ffffff;
+  padding: 3px 2px;
+}
+
+table.coin_table tbody td {
+  font-size: 13px;
+}
+
+table.coin_table tr:nth-child(even) {
+  background: #caf5d0;
+}
+
+table.coin_table thead {
+  background: #4ca462;
+  border-bottom: 5px solid #ffffff;
+}
+
+table.coin_table thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-left: 2px solid #ffffff;
+}
+
+table.coin_table thead th:first-child {
+  border-left: none;
+}
+
+table.coin_table tfoot td {
+  font-size: 14px;
+}
+
+.responsive-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}

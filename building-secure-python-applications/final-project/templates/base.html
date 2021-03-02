@@ -3,14 +3,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <!--stylesheet-->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>{% block title %}{% endblock %}</title>
 </head>
 
 <body>
-    {% block content %} {% endblock %}
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+    <p class="flask-message">{{ message }}</p>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    {% block content %}
+    {% endblock %}
 </body>
 
 </html>

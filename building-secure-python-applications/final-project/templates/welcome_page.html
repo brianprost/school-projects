@@ -5,8 +5,9 @@
 {% block content %}
 
 <div class="info-box">
-    <!--Listen, I know this text effect is stupid. That's it. That's all I had to say-->
+    <!--Listen, I know this text effect is stupid. But I had to do *something*...-->
     <h1 class="main-title">All About Crypto</h1>
+    <img class="responsive-img" src="{{ url_for('static', filename=" cryptocurrencies.jpg") }}" alt="cryptocurrencies">
     <h2>Not actually all, really just the <em>basics</em>.</h2>
     <p>This is your one stop shop for the three most talked about crypto currencies.</p>
     <p>When I say “one stop shop,” I mean it as to say this is like a convenience store at a gas station:</p>
@@ -25,5 +26,34 @@
         <li><a href="{{ url_for('dogecoin_page') }}">Dogecoin</a></li>
         <br />
     </ol>
+    <h4>Current Trading Prices</h4>
+    <table class="coin_table">
+        <thead>
+            <tr>
+                <th colspan="1">Coin</th>
+                <th colspan="1">Price</th>
+                <th colspan="1">Market Cap</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Bitcoin</td>
+            <td>${{ bitcoin_price }}</td>
+            <td>${{ bitcoin_market_cap }}</td>
+        </tr>
+        <tr>
+            <td>Ethereum</td>
+            <td>${{ ether_price }}</td>
+            <td>${{ ether_market_cap }}</td>
+        </tr>
+        <tr>
+            <td>Dogecoin</td>
+            <td>${{ dogecoin_price }}</td>
+            <td>${{ dogecoin_market_cap }}</td>
+        </tr>
+    </table>
+    <a href="{{ url_for('login') }}">
+        <button class="return-home-button">Login</button>
+    </a>
+
 </div>
 {% endblock %}

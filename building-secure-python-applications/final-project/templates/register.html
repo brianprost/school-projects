@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Register New Account{% endblock %}
+
+{% block content %}
+<div class="info-box">
+    <div class="form">
+        <h1>Register New Account</h1>
+        <form class="register-form" method="POST">
+            <input type="text" name='username' placeholder="Username" />
+            <input type="password" name='password' placeholder="password" />
+            <button type="submit">Register</button>
+            <p class="message"><a href="{{ url_for('login') }}">Already have an account?</a></p>
+        </form>
+    </div>
+</div>
+{% endblock %}
