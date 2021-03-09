@@ -5,9 +5,9 @@
 {% block content %}
 
 <div class="info-box">
-    <!--Listen, I know this text effect is stupid. But I had to do *something*...-->
+    <!--Listen, I know this text effect is stupid. That's it. That's all I had to say-->
     <h1 class="main-title">All About Crypto</h1>
-    <img class="responsive-img" src="{{ url_for('static', filename=" cryptocurrencies.jpg") }}" alt="cryptocurrencies">
+    <img class="responsive-img" src="{{ url_for('static', filename='cryptocurrencies.jpg') }}" alt="cryptocurrencies">
     <h2>Not actually all, really just the <em>basics</em>.</h2>
     <p>This is your one stop shop for the three most talked about crypto currencies.</p>
     <p>When I say “one stop shop,” I mean it as to say this is like a convenience store at a gas station:</p>
@@ -51,9 +51,5 @@
             <td>${{ dogecoin_market_cap }}</td>
         </tr>
     </table>
-    <a href="{{ url_for('login') }}">
-        <button class="return-home-button">Login</button>
-    </a>
-
 </div>
 {% endblock %}

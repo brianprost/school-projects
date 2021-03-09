@@ -164,3 +164,54 @@ table.coin_table tfoot td {
   max-width: 500px;
   height: auto;
 }
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkslategrey;
+  font-family: "Ubuntu", "Lucida Grande", "Lucida Sans Unicode", "Geneva",
+    "Verdana", sans-serif;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 17px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #4c7f7f;
+}
+
+.nav li p {
+  font-family: monospace;
+  color: white;
+}
+
+.flask-message {
+  width: 50%;
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 5px #ccc;
+  background-color: cadetblue;
+}
+
+.flask-message h2 {
+  font-size: 14px;
+  font-family: "Ubuntu", "Lucida Grande", "Lucida Sans Unicode", "Geneva",
+    "Verdana", sans-serif;
+  color: white;
+  text-align: center;
+}

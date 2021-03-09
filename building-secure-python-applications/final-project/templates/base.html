@@ -4,16 +4,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <!--stylesheet-->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>{% block title %}{% endblock %}</title>
 </head>
 
 <body>
+    <ul class="nav">
+        <li><a href="{{ url_for('welcome_page') }}">Home</a></li>
+        <li><a href="{{ url_for('bitcoin_page') }}">Bitcoin</a></li>
+        <li><a href="{{ url_for('ethereum_page') }}">Ethereum</a></li>
+        <li><a href="{{ url_for('dogecoin_page') }}">Dogecoin</a></li>
+        {% if session.get('logged_in') %}
+        <li style="float: right"><a href="{{ url_for('update_password') }}">Update Password</a></li>
+        <li style="float: right"><a href="{{ url_for('logout') }}">Logout</a></li>
+        <li style="float: right"><a href="#why-did-you-click-your-name">Hello, {{ session.get('name') }}</a></li>
+        {% else %}
+        <li style="float: right"><a href="{{ url_for('login') }}">Login</a></li>
+        {% endif %}
+    </ul>
     {% with messages = get_flashed_messages() %}
     {% if messages %}
     {% for message in messages %}
-    <p class="flask-message">{{ message }}</p>
+    <div class="flask-message">
+        <h2>{{ message }}</h2>
+    </div>
     {% endfor %}
     {% endif %}
     {% endwith %}
