@@ -1,0 +1,365 @@
+{
+    "Sensors": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_Y96CDEQF"},
+                    "SensorDescription": {"S": "ice core sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_Y96CDEQF.png"},
+                    "SampleRate": {"N": "60"},
+                    "Locations": {"SS":[
+                        "Seoul, South Korea",
+                        "Vijayawada, India"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_4HL2EBFU"},
+                    "SensorDescription": {"S": "Oprah's water sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_4HL2EBFU.png"},
+                    "SampleRate": {"N": "50"},
+                    "Locations": {"SS":[
+                        "Managua, Nicaragua",
+                        "Oran, Algeria",
+                        "Campinas, Brazil",
+                        "Basra, Iraq",
+                        "Jinan, China"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_UAS5XCM2"},
+                    "SensorDescription": {"S": "Brad Pitt's sand sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_UAS5XCM2.png"},
+                    "SampleRate": {"N": "50"},
+                    "Locations": {"SS":[
+                        "Kawasaki, Japan",
+                        "Yerevan, Armenia",
+                        "Palembang, Indonesia"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_XANYZNSR"},
+                    "SensorDescription": {"S": "Brad Pitt's water sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_XANYZNSR.png"},
+                    "SampleRate": {"N": "29"},
+                    "Locations": {"SS":[
+                        "Pyongyang, North",
+                        "Ankara, Turkey"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_NZVAQVJ4"},
+                    "ImageFile": {"S": "/sensors/image/sensor_NZVAQVJ4.png"},
+                    "SampleRate": {"N": "30"},
+                    "Locations": {"SS":[
+                        "Tripoli, Libya",
+                        "Islamabad, Pakistan"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_VLCZJK7V"},
+                    "SensorDescription": {"S": "Oprah's water sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_VLCZJK7V.png"},
+                    "SampleRate": {"N": "29"},
+                    "Locations": {"SS":[
+                        "Hefei, China",
+                        "Tehran, Iran",
+                        "Birmingham, United Kingdom"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_EQLFC368"},
+                    "SensorDescription": {"S": "Leonardo DiCaprio's water sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_EQLFC368.png"},
+                    "SampleRate": {"N": "50"},
+                    "Locations": {"SS":[
+                        "Basra, Iraq",
+                        "Khartoum, Sudan"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_5YGEWAEF"},
+                    "SensorDescription": {"S": "Taylor Swift's water sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_5YGEWAEF.png"},
+                    "SampleRate": {"N": "30"},
+                    "Locations": {"SS":[
+                        "Addis Ababa, Ethiopia",
+                        "Tashkent, Uzbekistan"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_L2JGBMRZ"},
+                    "ImageFile": {"S": "/sensors/image/sensor_L2JGBMRZ.png"},
+                    "SampleRate": {"N": "23"},
+                    "Locations": {"SS":[
+                        "Wenzhou, China",
+                        "Tokyo, Japan"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_ELVGMQ6W"},
+                    "SensorDescription": {"S": "Leonardo DiCaprio's sand sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_ELVGMQ6W.png"},
+                    "SampleRate": {"N": "23"},
+                    "Manufacturer": {"S": "Panasonic"},
+                    "Locations": {"SS":[
+                        "Moscow, Russia",
+                        "Houston, UnitedStates",
+                        "Fuzhou, China"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_JAN9LUJX"},
+                    "ImageFile": {"S": "/sensors/image/sensor_JAN9LUJX.png"},
+                    "SampleRate": {"N": "29"},
+                    "Manufacturer": {"S": "Kodak"},
+                    "Locations": {"SS":[
+                        "Qingdao, China",
+                        "Wenzhou, China"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_G8B8VDZ4"},
+                    "SensorDescription": {"S": "2-Pac's sand sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_G8B8VDZ4.png"},
+                    "SampleRate": {"N": "25"},
+                    "Manufacturer": {"S": "Panasonic"},
+                    "Locations": {"SS":[
+                        "Kaohsiung, Taiwan",
+                        "Abidjan, Ivory Coast"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_TYBCG979"},
+                    "SensorDescription": {"S": "Oprah's air sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_TYBCG979.png"},
+                    "SampleRate": {"N": "120"},
+                    "Manufacturer": {"S": "Panasonic"},
+                    "Locations": {"SS":[
+                        "Bangkok, Thailand",
+                        "Dhaka, Bangladesh"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_AYTGTLZ9"},
+                    "SensorDescription": {"S": "2-Pac's magma sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_AYTGTLZ9.png"},
+                    "SampleRate": {"N": "60"},
+                    "Acquired": {"S": "a gift from Brad Pitt"},
+                    "Manufacturer": {"S": "Panasonic"},
+                    "Locations": {"SS":[
+                        "Brisbane, Australia",
+                        "Dakar, Senegal"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_32T67FZE"},
+                    "SensorDescription": {"S": "Leonardo DiCaprio's ice sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_32T67FZE.png"},
+                    "SampleRate": {"N": "120"},
+                    "Manufacturer": {"S": "Panasonic"},
+                    "Locations": {"SS":[
+                        "London, United Kingdom",
+                        "Kawasaki, Japan"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_HRN7GTSP"},
+                    "SensorDescription": {"S": "Taylor Swift's air sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_HRN7GTSP.png"},
+                    "SampleRate": {"N": "23"},
+                    "Manufacturer": {"S": "Kodak"},
+                    "Locations": {"SS":[
+                        "Kuala Lumpur, Malaysia",
+                        "Medellin, Colombia",
+                        "Shantou, China"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_6AWXQWGH"},
+                    "SensorDescription": {"S": "Brad Pitt's magma sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_6AWXQWGH.png"},
+                    "SampleRate": {"N": "50"},
+                    "Availability": {"S": "Loaned to 2-Pac on September 12, 1996. Never got it back"},
+                    "Manufacturer": {"S": "LG"},
+                    "Locations": {"SS":[
+                        "Toronto, Canada",
+                        "Recife, Brazil"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_4SNDGK8H"},
+                    "SensorDescription": {"S": "2-Pac's radiation sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_4SNDGK8H.png"},
+                    "SampleRate": {"N": "29"},
+                    "Manufacturer": {"S": "LG"},
+                    "Locations": {"SS":[
+                        "Tangshan, China",
+                        "Guatemala City, Guatemala"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_9DDHSK5M"},
+                    "SensorDescription": {"S": "Oprah's ice sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_9DDHSK5M.png"},
+                    "Locations": {"SS":[
+                        "Pune, India",
+                        "Berlin, Germany"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_7T4CWKZ2"},
+                    "ImageFile": {"S": "/sensors/image/sensor_7T4CWKZ2.png"},
+                    "SampleRate": {"N": "60"},
+                    "Locations": {"SS":[
+                        "Ahmedabad, India",
+                        "Shenyang, China"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_JRX8TBUN"},
+                    "SensorDescription": {"S": "2-Pac's air sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_JRX8TBUN.png"},
+                    "SampleRate": {"N": "25"},
+                    "Locations": {"SS":[
+                        "Tijuana, Mexico",
+                        "Córdoba, Argentina"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_FFEYA5ZV"},
+                    "SensorDescription": {"S": "Brad Pitt's sand sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_FFEYA5ZV.png"},
+                    "SampleRate": {"N": "300"}
+                }
+            }        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_48YNQAGT"},
+                    "SensorDescription": {"S": "2-Pac's water sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_48YNQAGT.png"},
+                    "SampleRate": {"N": "2000"},
+                    "Locations": {"SS":[
+                        "Vienna, Austria",
+                        "Pyongyang, North Korea"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_67A79VRY"},
+                    "SensorDescription": {"S": "Brad Pitt's sand sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_67A79VRY.png"},
+                    "SampleRate": {"N": "120"},
+                    "Locations": {"SS":[
+                        "Taichung, Taiwan",
+                        "Casablanca, Morocco",
+                        "Tashkent, Uzbekistan",
+                        "Basra, Iraq"
+                    ]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "sensor_Q9PPB9ZF"},
+                    "SensorDescription": {"S": "Brad Pitt's sand sensor"},
+                    "ImageFile": {"S": "/sensors/image/sensor_Q9PPB9ZF.png"},
+                    "SampleRate": {"N": "23"},
+                    "Locations": {"SS":[
+                        "Douala, Cameroon",
+                        "Toronto, Canada",
+                        "Bandung, Indonesia"
+                    ]}
+                }
+            }
+        }
+    ]
+}

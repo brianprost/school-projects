@@ -1,0 +1,99 @@
+[{
+        "CourseID": 94,
+        "Subject": "SDEV",
+        "CatalogNumber": 400,
+        "CourseTitle": "Secure Programming in the Cloud",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 5,
+        "Subject": "CAPL",
+        "CatalogNumber": 398,
+        "CourseTitle": "Career Planning Management",
+        "CreditHours": 1
+    },
+    {
+        "CourseID": 21,
+        "Subject": "SDEV",
+        "CatalogNumber": 325,
+        "CourseTitle": "Detecting Software Vulnerabilities",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 30,
+        "Subject": "SDEV",
+        "CatalogNumber": 350,
+        "CourseTitle": "Database Security",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 29,
+        "Subject": "CMIS",
+        "CatalogNumber": 320,
+        "CourseTitle": "Relational Database Concepts and Applications",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 49,
+        "Subject": "CMIT",
+        "CatalogNumber": 320,
+        "CourseTitle": "Network Security",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 87,
+        "Subject": "SDEV",
+        "CatalogNumber": 425,
+        "CourseTitle": "Mitigating Software Vulnerabilities",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 53,
+        "Subject": "SDEV",
+        "CatalogNumber": 360,
+        "CourseTitle": "Secure Software Engineering",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 57,
+        "Subject": "SDEV",
+        "CatalogNumber": 300,
+        "CourseTitle": "Building Secure Python Applications",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 3,
+        "Subject": "CMIT",
+        "CatalogNumber": 265,
+        "CourseTitle": "Fundamentals of Networking",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 81,
+        "Subject": "CMIS",
+        "CatalogNumber": 242,
+        "CourseTitle": "Intermediate Programming",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 99,
+        "Subject": "NSCI",
+        "CatalogNumber": 103,
+        "CourseTitle": "Fundamentals of Physical Science",
+        "CreditHours": 4
+    },
+    {
+        "CourseID": 7,
+        "Subject": "CMIS",
+        "CatalogNumber": 141,
+        "CourseTitle": "Introductory Programming",
+        "CreditHours": 3
+    },
+    {
+        "CourseID": 70,
+        "Subject": "CMIS",
+        "CatalogNumber": 102,
+        "CourseTitle": "Introduction to Problem Solving and Algorithm Design",
+        "CreditHours": 3
+    }
+]
