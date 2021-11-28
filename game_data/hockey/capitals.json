@@ -1,6 +1,6 @@
 [
   {
-    "game_id": "hockey_washington_1",
+    "game_id": 1,
     "date": "2021-11-26",
     "opponent": "Florida Panthers",
     "is_home_game": "True",
@@ -10,7 +10,7 @@
     "goal_differential": 1
   },
   {
-    "game_id": "hockey_washington_2",
+    "game_id": 2,
     "date": "2021-11-24",
     "opponent": "Montreal Canadiens",
     "is_home_game": "True",
@@ -20,7 +20,7 @@
     "goal_differential": 3
   },
   {
-    "game_id": "hockey_washington_3",
+    "game_id": 3,
     "date": "2021-11-21",
     "opponent": "Seattle Kraken",
     "is_home_game": "False",
@@ -30,7 +30,7 @@
     "goal_differential": -3
   },
   {
-    "game_id": "hockey_washington_4",
+    "game_id": 4,
     "date": "2021-11-20",
     "opponent": "San Jose Sharks",
     "is_home_game": "False",
@@ -40,7 +40,7 @@
     "goal_differential": 4
   },
   {
-    "game_id": "hockey_washington_5",
+    "game_id": 5,
     "date": "2021-11-17",
     "opponent": "Los Angeles Kings",
     "is_home_game": "False",
@@ -50,7 +50,7 @@
     "goal_differential": 2
   },
   {
-    "game_id": "hockey_washington_6",
+    "game_id": 6,
     "date": "2021-11-16",
     "opponent": "Anaheim Ducks",
     "is_home_game": "False",
@@ -60,7 +60,7 @@
     "goal_differential": -1
   },
   {
-    "game_id": "hockey_washington_7",
+    "game_id": 7,
     "date": "2021-11-14",
     "opponent": "Pittsburgh Penguins",
     "is_home_game": "True",
@@ -70,7 +70,7 @@
     "goal_differential": 5
   },
   {
-    "game_id": "hockey_washington_8",
+    "game_id": 8,
     "date": "2021-11-12",
     "opponent": "Columbus Blue Jackets",
     "is_home_game": "False",
@@ -80,7 +80,7 @@
     "goal_differential": 1
   },
   {
-    "game_id": "hockey_washington_9",
+    "game_id": 9,
     "date": "2021-11-11",
     "opponent": "Detroit Red Wings",
     "is_home_game": "False",
@@ -90,7 +90,7 @@
     "goal_differential": 2
   },
   {
-    "game_id": "hockey_washington_10",
+    "game_id": 10,
     "date": "2021-11-08",
     "opponent": "Buffalo Sabres",
     "is_home_game": "True",
@@ -100,7 +100,7 @@
     "goal_differential": 2
   },
   {
-    "game_id": "hockey_washington_11",
+    "game_id": 11,
     "date": "2021-11-06",
     "opponent": "Philadelphia Flyers",
     "is_home_game": "True",
@@ -110,7 +110,7 @@
     "goal_differential": -1
   },
   {
-    "game_id": "hockey_washington_12",
+    "game_id": 12,
     "date": "2021-11-04",
     "opponent": "Florida Panthers",
     "is_home_game": "False",
@@ -120,7 +120,7 @@
     "goal_differential": -1
   },
   {
-    "game_id": "hockey_washington_13",
+    "game_id": 13,
     "date": "2021-11-01",
     "opponent": "Tampa Bay Lightning",
     "is_home_game": "False",
@@ -130,7 +130,7 @@
     "goal_differential": -1
   },
   {
-    "game_id": "hockey_washington_14",
+    "game_id": 14,
     "date": "2021-10-29",
     "opponent": "Arizona Coyotes",
     "is_home_game": "True",
@@ -140,7 +140,7 @@
     "goal_differential": 2
   },
   {
-    "game_id": "hockey_washington_15",
+    "game_id": 15,
     "date": "2021-10-27",
     "opponent": "Detroit Red Wings",
     "is_home_game": "True",
@@ -150,7 +150,7 @@
     "goal_differential": -1
   },
   {
-    "game_id": "hockey_washington_16",
+    "game_id": 16,
     "date": "2021-10-25",
     "opponent": "Ottawa Senators",
     "is_home_game": "False",
@@ -160,7 +160,7 @@
     "goal_differential": 2
   },
   {
-    "game_id": "hockey_washington_17",
+    "game_id": 17,
     "date": "2021-10-23",
     "opponent": "Calgary Flames",
     "is_home_game": "True",
@@ -170,7 +170,7 @@
     "goal_differential": -1
   },
   {
-    "game_id": "hockey_washington_18",
+    "game_id": 18,
     "date": "2021-10-21",
     "opponent": "New Jersey Devils",
     "is_home_game": "False",
@@ -180,7 +180,7 @@
     "goal_differential": 3
   },
   {
-    "game_id": "hockey_washington_19",
+    "game_id": 19,
     "date": "2021-10-19",
     "opponent": "Colorado Avalanche",
     "is_home_game": "True",
@@ -190,7 +190,7 @@
     "goal_differential": 3
   },
   {
-    "game_id": "hockey_washington_20",
+    "game_id": 20,
     "date": "2021-10-16",
     "opponent": "Tampa Bay Lightning",
     "is_home_game": "True",
@@ -200,7 +200,7 @@
     "goal_differential": -1
   },
   {
-    "game_id": "hockey_washington_21",
+    "game_id": 21,
     "date": "2021-10-13",
     "opponent": "New York Rangers",
     "is_home_game": "True",
