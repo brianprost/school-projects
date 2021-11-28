@@ -1,17 +1,15 @@
-import csv
+import json
 import os
 
 
 def main():
     # querys
-    try:
-        query_sport = "hockey".lower().strip()
-        query_team = "capitals".lower().strip()
-        print("There was no error with the query.")
-    except TypeError:
-        print("There was an error with the query.")
+    query_sport = "hockey".lower().strip()
+    query_team = "capitals".lower().strip()
 
-    get_team_data(query_sport, query_team)
+    team_data = get_team_data(query_sport, query_team)
+    team_standings = print_team_data(query_sport, query_team, team_data)
+    # print()
 
 
 def get_team_data(query_sport, query_team):
@@ -25,18 +23,22 @@ def get_team_data(query_sport, query_team):
 
     if query_team in directory_contents:
         print("query_team in directory_contents")
-        team_data_chart = directory_path + query_team + ".csv"
-        with open(team_data_chart) as f:
-            reader = csv.reader(f, delimiter=',')
-            for line in reader:
-                print(line)
-    else:
-        print(query_team in directory_contents)
+        team_data_path = directory_path + query_team + ".json"
+
+        with open(team_data_path) as json_data:
+            data = json.load(json_data)
+
+        return list(filter(lambda x:x["game_id"] < 6,data))
 
 
 
-def print_team_data():
-    pass
+
+def print_team_data(query_sport, query_team, team_data):
+    print(json.dumps(team_data, indent=4, sort_keys=True))
+    # return (
+    #     f"For the sport of {query_sport} the {query_team.capitalize()} last 5 game results are:\n \
+    #     {}"
+    # )
 
 
 if __name__ == "__main__":
