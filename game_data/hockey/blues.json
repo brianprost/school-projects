@@ -1,0 +1,212 @@
+[
+  {
+    "game_id": "hockey_st_louis_1",
+    "date": "2021-11-27",
+    "opponent": "Columbus Blue Jackets",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 6,
+    "goals_against": 3,
+    "goal_differential": 3
+  },
+  {
+    "game_id": "hockey_st_louis_2",
+    "date": "2021-11-26",
+    "opponent": "Chicago Blackhawks",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 3,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_st_louis_3",
+    "date": "2021-11-24",
+    "opponent": "Detroit Red Wings",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 4,
+    "goal_differential": -2
+  },
+  {
+    "game_id": "hockey_st_louis_4",
+    "date": "2021-11-22",
+    "opponent": "Vegas Golden Knights",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 5,
+    "goals_against": 2,
+    "goal_differential": 3
+  },
+  {
+    "game_id": "hockey_st_louis_5",
+    "date": "2021-11-20",
+    "opponent": "Dallas Stars",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 1,
+    "goals_against": 4,
+    "goal_differential": -3
+  },
+  {
+    "game_id": "hockey_st_louis_6",
+    "date": "2021-11-18",
+    "opponent": "San Jose Sharks",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 4,
+    "goals_against": 1,
+    "goal_differential": 3
+  },
+  {
+    "game_id": "hockey_st_louis_7",
+    "date": "2021-11-16",
+    "opponent": "Arizona Coyotes",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 3,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_st_louis_8",
+    "date": "2021-11-14",
+    "opponent": "Edmonton Oilers",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 4,
+    "goals_against": 5,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_st_louis_9",
+    "date": "2021-11-13",
+    "opponent": "Carolina Hurricanes",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 3,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_st_louis_10",
+    "date": "2021-11-11",
+    "opponent": "Nashville Predators",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 3,
+    "goals_against": 4,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_st_louis_11",
+    "date": "2021-11-09",
+    "opponent": "Winnipeg Jets",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 2,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_st_louis_12",
+    "date": "2021-11-07",
+    "opponent": "Anaheim Ducks",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 1,
+    "goals_against": 4,
+    "goal_differential": -3
+  },
+  {
+    "game_id": "hockey_st_louis_13",
+    "date": "2021-11-04",
+    "opponent": "San Jose Sharks",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 5,
+    "goals_against": 3,
+    "goal_differential": 2
+  },
+  {
+    "game_id": "hockey_st_louis_14",
+    "date": "2021-11-03",
+    "opponent": "Los Angeles Kings",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 3,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_st_louis_15",
+    "date": "2021-10-30",
+    "opponent": "Chicago Blackhawks",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 1,
+    "goals_against": 0,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_st_louis_16",
+    "date": "2021-10-28",
+    "opponent": "Colorado Avalanche",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 3,
+    "goals_against": 4,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_st_louis_17",
+    "date": "2021-10-25",
+    "opponent": "Los Angeles Kings",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 0,
+    "goal_differential": 3
+  },
+  {
+    "game_id": "hockey_st_louis_18",
+    "date": "2021-10-23",
+    "opponent": "Los Angeles Kings",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 7,
+    "goals_against": 3,
+    "goal_differential": 4
+  },
+  {
+    "game_id": "hockey_st_louis_19",
+    "date": "2021-10-20",
+    "opponent": "Vegas Golden Knights",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 1,
+    "goal_differential": 2
+  },
+  {
+    "game_id": "hockey_st_louis_20",
+    "date": "2021-10-18",
+    "opponent": "Arizona Coyotes",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 7,
+    "goals_against": 4,
+    "goal_differential": 3
+  },
+  {
+    "game_id": "hockey_st_louis_21",
+    "date": "2021-10-16",
+    "opponent": "Colorado Avalanche",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 5,
+    "goals_against": 3,
+    "goal_differential": 2
+  }
+]

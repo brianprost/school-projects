@@ -1,0 +1,22 @@
+﻿game_id,date,opponent,is_home_game,game_won,goals_for,goals_against,goal_differential
+hockey_st_louis_1,2021-11-27,Columbus Blue Jackets,True,True,6,3,3
+hockey_st_louis_2,2021-11-26,Chicago Blackhawks,False,False,2,3,-1
+hockey_st_louis_3,2021-11-24,Detroit Red Wings,False,False,2,4,-2
+hockey_st_louis_4,2021-11-22,Vegas Golden Knights,True,True,5,2,3
+hockey_st_louis_5,2021-11-20,Dallas Stars,False,False,1,4,-3
+hockey_st_louis_6,2021-11-18,San Jose Sharks,True,True,4,1,3
+hockey_st_louis_7,2021-11-16,Arizona Coyotes,True,False,2,3,-1
+hockey_st_louis_8,2021-11-14,Edmonton Oilers,True,False,4,5,-1
+hockey_st_louis_9,2021-11-13,Carolina Hurricanes,False,False,2,3,-1
+hockey_st_louis_10,2021-11-11,Nashville Predators,True,False,3,4,-1
+hockey_st_louis_11,2021-11-09,Winnipeg Jets,False,True,3,2,1
+hockey_st_louis_12,2021-11-07,Anaheim Ducks,False,False,1,4,-3
+hockey_st_louis_13,2021-11-04,San Jose Sharks,False,True,5,3,2
+hockey_st_louis_14,2021-11-03,Los Angeles Kings,False,False,2,3,-1
+hockey_st_louis_15,2021-10-30,Chicago Blackhawks,True,True,1,0,1
+hockey_st_louis_16,2021-10-28,Colorado Avalanche,True,False,3,4,-1
+hockey_st_louis_17,2021-10-25,Los Angeles Kings,True,True,3,0,3
+hockey_st_louis_18,2021-10-23,Los Angeles Kings,True,True,7,3,4
+hockey_st_louis_19,2021-10-20,Vegas Golden Knights,False,True,3,1,2
+hockey_st_louis_20,2021-10-18,Arizona Coyotes,False,True,7,4,3
+hockey_st_louis_21,2021-10-16,Colorado Avalanche,False,True,5,3,2

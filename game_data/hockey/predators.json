@@ -1,0 +1,212 @@
+[
+  {
+    "game_id": "hockey_nashville_1",
+    "date": "2021-11-27",
+    "opponent": "Colorado Avalanche",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 6,
+    "goal_differential": -4
+  },
+  {
+    "game_id": "hockey_nashville_2",
+    "date": "2021-11-26",
+    "opponent": "New Jersey Devils",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 4,
+    "goals_against": 2,
+    "goal_differential": 2
+  },
+  {
+    "game_id": "hockey_nashville_3",
+    "date": "2021-11-24",
+    "opponent": "Vegas Golden Knights",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 5,
+    "goal_differential": -3
+  },
+  {
+    "game_id": "hockey_nashville_4",
+    "date": "2021-11-22",
+    "opponent": "Anaheim Ducks",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 2,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_nashville_5",
+    "date": "2021-11-20",
+    "opponent": "Montreal Canadiens",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 3,
+    "goals_against": 6,
+    "goal_differential": -3
+  },
+  {
+    "game_id": "hockey_nashville_6",
+    "date": "2021-11-16",
+    "opponent": "Toronto Maple Leafs",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 0,
+    "goals_against": 3,
+    "goal_differential": -3
+  },
+  {
+    "game_id": "hockey_nashville_7",
+    "date": "2021-11-13",
+    "opponent": "Arizona Coyotes",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 4,
+    "goals_against": 1,
+    "goal_differential": 3
+  },
+  {
+    "game_id": "hockey_nashville_8",
+    "date": "2021-11-11",
+    "opponent": "St. Louis Blues",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 4,
+    "goals_against": 3,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_nashville_9",
+    "date": "2021-11-10",
+    "opponent": "Dallas Stars",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 4,
+    "goals_against": 2,
+    "goal_differential": 2
+  },
+  {
+    "game_id": "hockey_nashville_10",
+    "date": "2021-11-07",
+    "opponent": "Chicago Blackhawks",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 1,
+    "goals_against": 2,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_nashville_11",
+    "date": "2021-11-05",
+    "opponent": "Vancouver Canucks",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 2,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_nashville_12",
+    "date": "2021-11-03",
+    "opponent": "Edmonton Oilers",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 5,
+    "goal_differential": -3
+  },
+  {
+    "game_id": "hockey_nashville_13",
+    "date": "2021-11-02",
+    "opponent": "Calgary Flames",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 2,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_nashville_14",
+    "date": "2021-10-30",
+    "opponent": "New York Islanders",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 2,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_nashville_15",
+    "date": "2021-10-26",
+    "opponent": "San Jose Sharks",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 3,
+    "goals_against": 1,
+    "goal_differential": 2
+  },
+  {
+    "game_id": "hockey_nashville_16",
+    "date": "2021-10-24",
+    "opponent": "Minnesota Wild",
+    "is_home_game": "False",
+    "game_won": "True",
+    "goals_for": 5,
+    "goals_against": 2,
+    "goal_differential": 3
+  },
+  {
+    "game_id": "hockey_nashville_17",
+    "date": "2021-10-23",
+    "opponent": "Winnipeg Jets",
+    "is_home_game": "False",
+    "game_won": "False",
+    "goals_for": 4,
+    "goals_against": 6,
+    "goal_differential": -2
+  },
+  {
+    "game_id": "hockey_nashville_18",
+    "date": "2021-10-21",
+    "opponent": "New York Rangers",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 1,
+    "goals_against": 3,
+    "goal_differential": -2
+  },
+  {
+    "game_id": "hockey_nashville_19",
+    "date": "2021-10-19",
+    "opponent": "Los Angeles Kings",
+    "is_home_game": "True",
+    "game_won": "True",
+    "goals_for": 2,
+    "goals_against": 1,
+    "goal_differential": 1
+  },
+  {
+    "game_id": "hockey_nashville_20",
+    "date": "2021-10-16",
+    "opponent": "Carolina Hurricanes",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 2,
+    "goals_against": 3,
+    "goal_differential": -1
+  },
+  {
+    "game_id": "hockey_nashville_21",
+    "date": "2021-10-14",
+    "opponent": "Seattle Kraken",
+    "is_home_game": "True",
+    "game_won": "False",
+    "goals_for": 3,
+    "goals_against": 4,
+    "goal_differential": -1
+  }
+]
