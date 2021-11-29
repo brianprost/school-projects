@@ -1,15 +1,14 @@
 import json
 import os
 
-
 def main():
     # querys
     query_sport = "hockey".lower().strip()
-    query_team = "capitals".lower().strip()
+    query_team = "blues".lower().strip()
 
     team_data = get_team_data(query_sport, query_team)
-    team_standings = print_team_data(query_sport, query_team, team_data)
-    # print()
+    print_team_data(query_sport, query_team, team_data)
+    # team_standings = print_team_data(query_sport, query_team, team_data)
 
 
 def get_team_data(query_sport, query_team):
@@ -28,17 +27,19 @@ def get_team_data(query_sport, query_team):
         with open(team_data_path) as json_data:
             data = json.load(json_data)
 
-        return list(filter(lambda x:x["game_id"] < 6,data))
-
-
+        return list(filter(lambda x:x["game_id"] < 6, data))
 
 
 def print_team_data(query_sport, query_team, team_data):
-    print(json.dumps(team_data, indent=4, sort_keys=True))
-    # return (
-    #     f"For the sport of {query_sport} the {query_team.capitalize()} last 5 game results are:\n \
-    #     {}"
-    # )
+    # print(json.dumps(team_data, indent=4, sort_keys=True))
+    print(f"For the sport of {query_sport} the {query_team.capitalize()} last 5 game results are:\n")
+    for game in team_data:
+        print(f"{game['date']}\tA {query_team.capitalize()}", end=" ")
+        if game['game_won']:
+            print("win against", end=" ")
+        elif not game['game_won']:
+            print("loss to", end=" ")
+        print(f"the {game['opponent']}. The score was {game['goals_for']} - {game['goals_against']}.")
 
 
 if __name__ == "__main__":
