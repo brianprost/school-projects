@@ -1,0 +1,162 @@
+[
+    {
+        "game_id": 1,
+        "date": "Nov 26, 2021",
+        "opponent": "San Antonio Spurs",
+        "game_won": false,
+        "points_for": 88,
+        "points_aggainst": 96
+    },
+    {
+        "game_id": 2,
+        "date": "Nov 24, 2021",
+        "opponent": "Brooklyn Nets",
+        "game_won": false,
+        "points_for": 104,
+        "points_aggainst": 123
+    },
+    {
+        "game_id": 3,
+        "date": "Nov 22, 2021",
+        "opponent": "Houston Rockets",
+        "game_won": true,
+        "points_for": 108,
+        "points_aggainst": 90
+    },
+    {
+        "game_id": 4,
+        "date": "Nov 20, 2021",
+        "opponent": "Oklahoma City Thunder",
+        "game_won": true,
+        "points_for": 111,
+        "points_aggainst": 105
+    },
+    {
+        "game_id": 5,
+        "date": "Nov 19, 2021",
+        "opponent": "Los Angeles Lakers",
+        "game_won": true,
+        "points_for": 130,
+        "points_aggainst": 108
+    },
+    {
+        "game_id": 6,
+        "date": "Nov 17, 2021",
+        "opponent": "Atlanta Hawks",
+        "game_won": false,
+        "points_for": 99,
+        "points_aggainst": 110
+    },
+    {
+        "game_id": 7,
+        "date": "Nov 15, 2021",
+        "opponent": "Cleveland Cavaliers",
+        "game_won": true,
+        "points_for": 98,
+        "points_aggainst": 92
+    },
+    {
+        "game_id": 8,
+        "date": "Nov 13, 2021",
+        "opponent": "Cleveland Cavaliers",
+        "game_won": false,
+        "points_for": 89,
+        "points_aggainst": 91
+    },
+    {
+        "game_id": 9,
+        "date": "Nov 12, 2021",
+        "opponent": "Milwaukee Bucks",
+        "game_won": true,
+        "points_for": 122,
+        "points_aggainst": 113
+    },
+    {
+        "game_id": 10,
+        "date": "Nov 10, 2021",
+        "opponent": "Toronto Raptors",
+        "game_won": true,
+        "points_for": 104,
+        "points_aggainst": 88
+    },
+    {
+        "game_id": 11,
+        "date": "Nov 6, 2021",
+        "opponent": "Dallas Mavericks",
+        "game_won": false,
+        "points_for": 104,
+        "points_aggainst": 107
+    },
+    {
+        "game_id": 12,
+        "date": "Nov 4, 2021",
+        "opponent": "Miami Heat",
+        "game_won": true,
+        "points_for": 95,
+        "points_aggainst": 78
+    },
+    {
+        "game_id": 13,
+        "date": "Nov 3, 2021",
+        "opponent": "Orlando Magic",
+        "game_won": true,
+        "points_for": 92,
+        "points_aggainst": 79
+    },
+    {
+        "game_id": 14,
+        "date": "Nov 1, 2021",
+        "opponent": "Chicago Bulls",
+        "game_won": false,
+        "points_for": 114,
+        "points_aggainst": 128
+    },
+    {
+        "game_id": 15,
+        "date": "Oct 30, 2021",
+        "opponent": "Washington Wizards",
+        "game_won": false,
+        "points_for": 112,
+        "points_aggainst": 115
+    },
+    {
+        "game_id": 16,
+        "date": "Oct 27, 2021",
+        "opponent": "Washington Wizards",
+        "game_won": false,
+        "points_for": 107,
+        "points_aggainst": 116
+    },
+    {
+        "game_id": 17,
+        "date": "Oct 25, 2021",
+        "opponent": "Charlotte Hornets",
+        "game_won": true,
+        "points_for": 140,
+        "points_aggainst": 129
+    },
+    {
+        "game_id": 18,
+        "date": "Oct 24, 2021",
+        "opponent": "Houston Rockets",
+        "game_won": true,
+        "points_for": 107,
+        "points_aggainst": 97
+    },
+    {
+        "game_id": 19,
+        "date": "Oct 22, 2021",
+        "opponent": "Toronto Raptors",
+        "game_won": false,
+        "points_for": 83,
+        "points_aggainst": 115
+    },
+    {
+        "game_id": 20,
+        "date": "Oct 20, 2021",
+        "opponent": "New York Knicks",
+        "game_won": false,
+        "points_for": 134,
+        "points_aggainst": 138
+    }
+]
