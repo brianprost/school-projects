@@ -1,0 +1,178 @@
+[
+    {
+        "game_id": 141,
+        "date": "Sep 10, 2021",
+        "opponent": "Arizona Diamondbacks",
+        "game_won": true,
+        "points_for": 5,
+        "points_against": 4
+    },
+    {
+        "game_id": 142,
+        "date": "Sep 11, 2021",
+        "opponent": "Arizona Diamondbacks",
+        "game_won": false,
+        "points_for": 3,
+        "points_against": 7
+    },
+    {
+        "game_id": 143,
+        "date": "Sep 12, 2021",
+        "opponent": "Arizona Diamondbacks",
+        "game_won": false,
+        "points_for": 4,
+        "points_against": 5
+    },
+    {
+        "game_id": 144,
+        "date": "Sep 13, 2021",
+        "opponent": "Boston Red Sox",
+        "game_won": true,
+        "points_for": 5,
+        "points_against": 4
+    },
+    {
+        "game_id": 145,
+        "date": "Sep 14, 2021",
+        "opponent": "Boston Red Sox",
+        "game_won": false,
+        "points_for": 4,
+        "points_against": 8
+    },
+    {
+        "game_id": 146,
+        "date": "Sep 15, 2021",
+        "opponent": "Boston Red Sox",
+        "game_won": false,
+        "points_for": 4,
+        "points_against": 9
+    },
+    {
+        "game_id": 147,
+        "date": "Sep 17, 2021",
+        "opponent": "Kansas City Royals",
+        "game_won": true,
+        "points_for": 6,
+        "points_against": 2
+    },
+    {
+        "game_id": 148,
+        "date": "Sep 18, 2021",
+        "opponent": "Kansas City Royals",
+        "game_won": false,
+        "points_for": 1,
+        "points_against": 8
+    },
+    {
+        "game_id": 149,
+        "date": "Sep 19, 2021",
+        "opponent": "Kansas City Royals",
+        "game_won": true,
+        "points_for": 7,
+        "points_against": 1
+    },
+    {
+        "game_id": 150,
+        "date": "Sep 20, 2021",
+        "opponent": "Oakland Athletics",
+        "game_won": true,
+        "points_for": 4,
+        "points_against": 2
+    },
+    {
+        "game_id": 151,
+        "date": "Sep 21, 2021",
+        "opponent": "Oakland Athletics",
+        "game_won": true,
+        "points_for": 5,
+        "points_against": 2
+    },
+    {
+        "game_id": 152,
+        "date": "Sep 22, 2021",
+        "opponent": "Oakland Athletics",
+        "game_won": true,
+        "points_for": 4,
+        "points_against": 1
+    },
+    {
+        "game_id": 153,
+        "date": "Sep 23, 2021",
+        "opponent": "Oakland Athletics",
+        "game_won": true,
+        "points_for": 6,
+        "points_against": 5
+    },
+    {
+        "game_id": 154,
+        "date": "Sep 24, 2021",
+        "opponent": "Los Angeles Angeles",
+        "game_won": true,
+        "points_for": 6,
+        "points_against": 5
+    },
+    {
+        "game_id": 155,
+        "date": "Sep 25, 2021",
+        "opponent": "Los Angeles Angeles",
+        "game_won": false,
+        "points_for": 1,
+        "points_against": 14
+    },
+    {
+        "game_id": 156,
+        "date": "Sep 26, 2021",
+        "opponent": "Los Angeles Angeles",
+        "game_won": true,
+        "points_for": 5,
+        "points_against": 1
+    },
+    {
+        "game_id": 157,
+        "date": "Sep 27, 2021",
+        "opponent": "Oakland Athletics",
+        "game_won": true,
+        "points_for": 13,
+        "points_against": 4
+    },
+    {
+        "game_id": 158,
+        "date": "Sep 28, 2021",
+        "opponent": "Oakland Athletics",
+        "game_won": true,
+        "points_for": 4,
+        "points_against": 2
+    },
+    {
+        "game_id": 159,
+        "date": "Sep 29, 2021",
+        "opponent": "Oakland Athletics",
+        "game_won": true,
+        "points_for": 4,
+        "points_against": 2
+    },
+    {
+        "game_id": 160,
+        "date": "Oct 1, 2021",
+        "opponent": "Los Angeles Angeles",
+        "game_won": false,
+        "points_for": 1,
+        "points_against": 2
+    },
+    {
+        "game_id": 161,
+        "date": "Oct 2, 2021",
+        "opponent": "Los Angeles Angeles",
+        "game_won": true,
+        "points_for": 6,
+        "points_against": 4
+    },
+    {
+        "game_id": 162,
+        "date": "Oct 3, 2021",
+        "opponent": "Los Angeles Angeles",
+        "game_won": false,
+        "points_for": 3,
+        "points_against": 7
+    }
+]
