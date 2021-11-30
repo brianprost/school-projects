@@ -1,6 +1,7 @@
 import json
 import os
 
+
 def main():
     # querys
     query_sport = "basketball".lower().strip()
@@ -38,14 +39,15 @@ def check_if_data_exists(query_sport, query_team, directory_path):
 
 def get_team_data(query_sport, query_team):
     directory_path = "game_data/"
-    there_is_data = check_if_data_exists(query_sport, query_team, directory_path)
+    there_is_data = check_if_data_exists(
+        query_sport, query_team, directory_path)
     if there_is_data is True:
         directory_path += query_sport + "/" + query_team + ".json"
 
         with open(directory_path) as json_data:
             data = json.load(json_data)
 
-        return list(filter(lambda x:x["game_id"] < 6, data))
+        return list(filter(lambda x: x["game_id"] < 6, data))
     elif there_is_data[0] is "NO_SPORT":
         return ["Error.", "Sport was not found. Please try from one of these sports:", there_is_data[1]]
     elif there_is_data[0] is "NO_TEAM":
@@ -71,8 +73,6 @@ def print_team_data(query_sport, query_team, team_data):
 
         game_log[query_sport][query_team].append(response)
     return game_log
-
-
 
 
 if __name__ == "__main__":
