@@ -49,9 +49,9 @@ def get_team_data(query_sport, query_team):
 
         return list(filter(lambda x: x["game_id"] < 6, data))
     elif there_is_data[0] is "NO_SPORT":
-        return ["Error.", "Sport was not found. Please try from one of these sports:", there_is_data[1]]
+        return ["Error.", f"Sport: {query_sport} was not found. Please try from one of these sports:", there_is_data[1]]
     elif there_is_data[0] is "NO_TEAM":
-        return ["Error.", "Team was not found. Please try from one of these teams:", there_is_data[1]]
+        return ["Error.", f"Team: {query_team} was not found. Please try from one of these teams:", there_is_data[1]]
 
 
 def print_team_data(query_sport, query_team, team_data):
