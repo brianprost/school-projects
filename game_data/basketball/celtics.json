@@ -5,7 +5,7 @@
         "opponent": "San Antonio Spurs",
         "game_won": false,
         "points_for": 88,
-        "points_aggainst": 96
+        "points_against": 96
     },
     {
         "game_id": 2,
@@ -13,7 +13,7 @@
         "opponent": "Brooklyn Nets",
         "game_won": false,
         "points_for": 104,
-        "points_aggainst": 123
+        "points_against": 123
     },
     {
         "game_id": 3,
@@ -21,7 +21,7 @@
         "opponent": "Houston Rockets",
         "game_won": true,
         "points_for": 108,
-        "points_aggainst": 90
+        "points_against": 90
     },
     {
         "game_id": 4,
@@ -29,7 +29,7 @@
         "opponent": "Oklahoma City Thunder",
         "game_won": true,
         "points_for": 111,
-        "points_aggainst": 105
+        "points_against": 105
     },
     {
         "game_id": 5,
@@ -37,7 +37,7 @@
         "opponent": "Los Angeles Lakers",
         "game_won": true,
         "points_for": 130,
-        "points_aggainst": 108
+        "points_against": 108
     },
     {
         "game_id": 6,
@@ -45,7 +45,7 @@
         "opponent": "Atlanta Hawks",
         "game_won": false,
         "points_for": 99,
-        "points_aggainst": 110
+        "points_against": 110
     },
     {
         "game_id": 7,
@@ -53,7 +53,7 @@
         "opponent": "Cleveland Cavaliers",
         "game_won": true,
         "points_for": 98,
-        "points_aggainst": 92
+        "points_against": 92
     },
     {
         "game_id": 8,
@@ -61,7 +61,7 @@
         "opponent": "Cleveland Cavaliers",
         "game_won": false,
         "points_for": 89,
-        "points_aggainst": 91
+        "points_against": 91
     },
     {
         "game_id": 9,
@@ -69,7 +69,7 @@
         "opponent": "Milwaukee Bucks",
         "game_won": true,
         "points_for": 122,
-        "points_aggainst": 113
+        "points_against": 113
     },
     {
         "game_id": 10,
@@ -77,7 +77,7 @@
         "opponent": "Toronto Raptors",
         "game_won": true,
         "points_for": 104,
-        "points_aggainst": 88
+        "points_against": 88
     },
     {
         "game_id": 11,
@@ -85,7 +85,7 @@
         "opponent": "Dallas Mavericks",
         "game_won": false,
         "points_for": 104,
-        "points_aggainst": 107
+        "points_against": 107
     },
     {
         "game_id": 12,
@@ -93,7 +93,7 @@
         "opponent": "Miami Heat",
         "game_won": true,
         "points_for": 95,
-        "points_aggainst": 78
+        "points_against": 78
     },
     {
         "game_id": 13,
@@ -101,7 +101,7 @@
         "opponent": "Orlando Magic",
         "game_won": true,
         "points_for": 92,
-        "points_aggainst": 79
+        "points_against": 79
     },
     {
         "game_id": 14,
@@ -109,7 +109,7 @@
         "opponent": "Chicago Bulls",
         "game_won": false,
         "points_for": 114,
-        "points_aggainst": 128
+        "points_against": 128
     },
     {
         "game_id": 15,
@@ -117,7 +117,7 @@
         "opponent": "Washington Wizards",
         "game_won": false,
         "points_for": 112,
-        "points_aggainst": 115
+        "points_against": 115
     },
     {
         "game_id": 16,
@@ -125,7 +125,7 @@
         "opponent": "Washington Wizards",
         "game_won": false,
         "points_for": 107,
-        "points_aggainst": 116
+        "points_against": 116
     },
     {
         "game_id": 17,
@@ -133,7 +133,7 @@
         "opponent": "Charlotte Hornets",
         "game_won": true,
         "points_for": 140,
-        "points_aggainst": 129
+        "points_against": 129
     },
     {
         "game_id": 18,
@@ -141,7 +141,7 @@
         "opponent": "Houston Rockets",
         "game_won": true,
         "points_for": 107,
-        "points_aggainst": 97
+        "points_against": 97
     },
     {
         "game_id": 19,
@@ -149,7 +149,7 @@
         "opponent": "Toronto Raptors",
         "game_won": false,
         "points_for": 83,
-        "points_aggainst": 115
+        "points_against": 115
     },
     {
         "game_id": 20,
@@ -157,6 +157,6 @@
         "opponent": "New York Knicks",
         "game_won": false,
         "points_for": 134,
-        "points_aggainst": 138
+        "points_against": 138
     }
 ]
