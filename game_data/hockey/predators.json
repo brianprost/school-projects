@@ -4,8 +4,7 @@
     "opponent": "Colorado Avalanche",
     "game_won": false,
     "goals_for": 2,
-    "goals_against": 6,
-    "goal_differential": -4
+    "goals_against": 6
   },
   {
     "game_id": 2,
@@ -13,8 +12,7 @@
     "opponent": "New Jersey Devils",
     "game_won": true,
     "goals_for": 4,
-    "goals_against": 2,
-    "goal_differential": 2
+    "goals_against": 2
   },
   {
     "game_id": 3,
@@ -22,8 +20,7 @@
     "opponent": "Vegas Golden Knights",
     "game_won": false,
     "goals_for": 2,
-    "goals_against": 5,
-    "goal_differential": -3
+    "goals_against": 5
   },
   {
     "game_id": 4,
@@ -31,8 +28,7 @@
     "opponent": "Anaheim Ducks",
     "game_won": true,
     "goals_for": 3,
-    "goals_against": 2,
-    "goal_differential": 1
+    "goals_against": 2
   },
   {
     "game_id": 5,
@@ -40,8 +36,7 @@
     "opponent": "Montreal Canadiens",
     "game_won": false,
     "goals_for": 3,
-    "goals_against": 6,
-    "goal_differential": -3
+    "goals_against": 6
   },
   {
     "game_id": 6,
@@ -49,8 +44,7 @@
     "opponent": "Toronto Maple Leafs",
     "game_won": false,
     "goals_for": 0,
-    "goals_against": 3,
-    "goal_differential": -3
+    "goals_against": 3
   },
   {
     "game_id": 7,
@@ -58,8 +52,7 @@
     "opponent": "Arizona Coyotes",
     "game_won": true,
     "goals_for": 4,
-    "goals_against": 1,
-    "goal_differential": 3
+    "goals_against": 1
   },
   {
     "game_id": 8,
@@ -67,8 +60,7 @@
     "opponent": "St. Louis Blues",
     "game_won": true,
     "goals_for": 4,
-    "goals_against": 3,
-    "goal_differential": 1
+    "goals_against": 3
   },
   {
     "game_id": 9,
@@ -76,8 +68,7 @@
     "opponent": "Dallas Stars",
     "game_won": true,
     "goals_for": 4,
-    "goals_against": 2,
-    "goal_differential": 2
+    "goals_against": 2
   },
   {
     "game_id": 10,
@@ -85,8 +76,7 @@
     "opponent": "Chicago Blackhawks",
     "game_won": false,
     "goals_for": 1,
-    "goals_against": 2,
-    "goal_differential": -1
+    "goals_against": 2
   },
   {
     "game_id": 11,
@@ -94,8 +84,7 @@
     "opponent": "Vancouver Canucks",
     "game_won": true,
     "goals_for": 3,
-    "goals_against": 2,
-    "goal_differential": 1
+    "goals_against": 2
   },
   {
     "game_id": 12,
@@ -103,8 +92,7 @@
     "opponent": "Edmonton Oilers",
     "game_won": false,
     "goals_for": 2,
-    "goals_against": 5,
-    "goal_differential": -3
+    "goals_against": 5
   },
   {
     "game_id": 13,
@@ -112,8 +100,7 @@
     "opponent": "Calgary Flames",
     "game_won": true,
     "goals_for": 3,
-    "goals_against": 2,
-    "goal_differential": 1
+    "goals_against": 2
   },
   {
     "game_id": 14,
@@ -121,8 +108,7 @@
     "opponent": "New York Islanders",
     "game_won": true,
     "goals_for": 3,
-    "goals_against": 2,
-    "goal_differential": 1
+    "goals_against": 2
   },
   {
     "game_id": 15,
@@ -130,8 +116,7 @@
     "opponent": "San Jose Sharks",
     "game_won": true,
     "goals_for": 3,
-    "goals_against": 1,
-    "goal_differential": 2
+    "goals_against": 1
   },
   {
     "game_id": 16,
@@ -139,8 +124,7 @@
     "opponent": "Minnesota Wild",
     "game_won": true,
     "goals_for": 5,
-    "goals_against": 2,
-    "goal_differential": 3
+    "goals_against": 2
   },
   {
     "game_id": 17,
@@ -148,8 +132,7 @@
     "opponent": "Winnipeg Jets",
     "game_won": false,
     "goals_for": 4,
-    "goals_against": 6,
-    "goal_differential": -2
+    "goals_against": 6
   },
   {
     "game_id": 18,
@@ -157,8 +140,7 @@
     "opponent": "New York Rangers",
     "game_won": false,
     "goals_for": 1,
-    "goals_against": 3,
-    "goal_differential": -2
+    "goals_against": 3
   },
   {
     "game_id": 19,
@@ -166,8 +148,7 @@
     "opponent": "Los Angeles Kings",
     "game_won": true,
     "goals_for": 2,
-    "goals_against": 1,
-    "goal_differential": 1
+    "goals_against": 1
   },
   {
     "game_id": 20,
@@ -175,8 +156,7 @@
     "opponent": "Carolina Hurricanes",
     "game_won": false,
     "goals_for": 2,
-    "goals_against": 3,
-    "goal_differential": -1
+    "goals_against": 3
   },
   {
     "game_id": 21,
@@ -184,7 +164,6 @@
     "opponent": "Seattle Kraken",
     "game_won": false,
     "goals_for": 3,
-    "goals_against": 4,
-    "goal_differential": -1
+    "goals_against": 4
   }
 ]
