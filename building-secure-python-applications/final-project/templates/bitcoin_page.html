@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Bitcoin{% endblock %}
+
+{% block content %}
+<h1 class="coin-title">Bitcoin</h1>
+<div class="info-box">
+    <h2>The Original Cryptocurrency</h2>
+    <img class="responsive-img" src="{{ url_for('static', filename=" bitcoin.jpg") }}" alt="bitcoin picture">
+    <h3>Current Trading Price as of {{ date_and_time }} is <br />{{ price }}</h3>
+    <p>The world’s first cryptocurrency, Bitcoin is stored and exchanged securely on the internet
+        through a digital ledger known as a blockchain. Bitcoins are divisible into smaller units
+        known as satoshis — each satoshi is worth 0.00000001 bitcoin.<br />
+        <a href="https://www.coinbase.com/price/bitcoin">(Coinbase, 2020)</a>
+    </p>
+    <h4><a href="{{ white_paper }}">Whitepaper</a></h4>
+    <a href="{{ url_for('welcome_page') }}">
+        <button class="return-home-button">Return Home</button>
+    </a>
+</div>
+
+{% endblock %}
