@@ -1,0 +1,282 @@
+[
+  {
+    "state": "alabama",
+    "cases": "851237",
+    "deaths": "16243"
+  },
+  {
+    "state": "alaska",
+    "cases": "151979",
+    "deaths": "862"
+  },
+  {
+    "state": "american samoa",
+    "cases": "1",
+    "deaths": "0"
+  },
+  {
+    "state": "arizona",
+    "cases": "1309184",
+    "deaths": "22947"
+  },
+  {
+    "state": "arkansas",
+    "cases": "536368",
+    "deaths": "8810"
+  },
+  {
+    "state": "california",
+    "cases": "5148904",
+    "deaths": "75374"
+  },
+  {
+    "state": "colorado",
+    "cases": "856884",
+    "deaths": "9744"
+  },
+  {
+    "state": "connecticut",
+    "cases": "436143",
+    "deaths": "8946"
+  },
+  {
+    "state": "delaware",
+    "cases": "158600",
+    "deaths": "2210"
+  },
+  {
+    "state": "district of columbia",
+    "cases": "68460",
+    "deaths": "1197"
+  },
+  {
+    "state": "florida",
+    "cases": "3708204",
+    "deaths": "62007"
+  },
+  {
+    "state": "georgia",
+    "cases": "1642875",
+    "deaths": "29675"
+  },
+  {
+    "state": "guam",
+    "cases": "20252",
+    "deaths": "268"
+  },
+  {
+    "state": "hawaii",
+    "cases": "85676",
+    "deaths": "1037"
+  },
+  {
+    "state": "idaho",
+    "cases": "311178",
+    "deaths": "4014"
+  },
+  {
+    "state": "illinois",
+    "cases": "1889717",
+    "deaths": "29842"
+  },
+  {
+    "state": "indiana",
+    "cases": "1149275",
+    "deaths": "17954"
+  },
+  {
+    "state": "iowa",
+    "cases": "542433",
+    "deaths": "7550"
+  },
+  {
+    "state": "kansas",
+    "cases": "486884",
+    "deaths": "6857"
+  },
+  {
+    "state": "kentucky",
+    "cases": "813149",
+    "deaths": "11543"
+  },
+  {
+    "state": "louisiana",
+    "cases": "775935",
+    "deaths": "14877"
+  },
+  {
+    "state": "maine",
+    "cases": "128981",
+    "deaths": "1365"
+  },
+  {
+    "state": "maryland",
+    "cases": "592912",
+    "deaths": "11255"
+  },
+  {
+    "state": "massachusetts",
+    "cases": "963923",
+    "deaths": "19606"
+  },
+  {
+    "state": "michigan",
+    "cases": "1550852",
+    "deaths": "26614"
+  },
+  {
+    "state": "minnesota",
+    "cases": "956903",
+    "deaths": "9996"
+  },
+  {
+    "state": "mississippi",
+    "cases": "518670",
+    "deaths": "10317"
+  },
+  {
+    "state": "missouri",
+    "cases": "948628",
+    "deaths": "15688"
+  },
+  {
+    "state": "montana",
+    "cases": "193906",
+    "deaths": "2822"
+  },
+  {
+    "state": "nebraska",
+    "cases": "320943",
+    "deaths": "2862"
+  },
+  {
+    "state": "nevada",
+    "cases": "477407",
+    "deaths": "8153"
+  },
+  {
+    "state": "new hampshire",
+    "cases": "173089",
+    "deaths": "1773"
+  },
+  {
+    "state": "new jersey",
+    "cases": "1295005",
+    "deaths": "28543"
+  },
+  {
+    "state": "new mexico",
+    "cases": "328332",
+    "deaths": "5461"
+  },
+  {
+    "state": "new york",
+    "cases": "2816974",
+    "deaths": "57507"
+  },
+  {
+    "state": "north carolina",
+    "cases": "1566553",
+    "deaths": "18986"
+  },
+  {
+    "state": "north dakota",
+    "cases": "166641",
+    "deaths": "1985"
+  },
+  {
+    "state": "northern mariana islands",
+    "cases": "1514",
+    "deaths": "5"
+  },
+  {
+    "state": "ohio",
+    "cases": "1761008",
+    "deaths": "27011"
+  },
+  {
+    "state": "oklahoma",
+    "cases": "678343",
+    "deaths": "11384"
+  },
+  {
+    "state": "oregon",
+    "cases": "399361",
+    "deaths": "5356"
+  },
+  {
+    "state": "pennsylvania",
+    "cases": "1818299",
+    "deaths": "34415"
+  },
+  {
+    "state": "puerto rico",
+    "cases": "222999",
+    "deaths": "3274"
+  },
+  {
+    "state": "rhode island",
+    "cases": "200197",
+    "deaths": "2951"
+  },
+  {
+    "state": "south carolina",
+    "cases": "929077",
+    "deaths": "14375"
+  },
+  {
+    "state": "south dakota",
+    "cases": "171248",
+    "deaths": "2398"
+  },
+  {
+    "state": "tennessee",
+    "cases": "1301673",
+    "deaths": "17519"
+  },
+  {
+    "state": "texas",
+    "cases": "4360768",
+    "deaths": "74774"
+  },
+  {
+    "state": "utah",
+    "cases": "609486",
+    "deaths": "3632"
+  },
+  {
+    "state": "vermont",
+    "cases": "55057",
+    "deaths": "429"
+  },
+  {
+    "state": "virginia",
+    "cases": "994069",
+    "deaths": "14895"
+  },
+  {
+    "state": "virgin islands",
+    "cases": "7588",
+    "deaths": "87"
+  },
+  {
+    "state": "washington",
+    "cases": "791995",
+    "deaths": "9589"
+  },
+  {
+    "state": "west virginia",
+    "cases": "305418",
+    "deaths": "5085"
+  },
+  {
+    "state": "wisconsin",
+    "cases": "1017528",
+    "deaths": "10330"
+  },
+  {
+    "state": "wyoming",
+    "cases": "112731",
+    "deaths": "1472"
+  }
+]
