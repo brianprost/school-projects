@@ -1,44 +1,54 @@
 {
   "red": {
     "cabernet sauvignon": {
+      "grape": "Cabernet Sauvignon",
       "description": "This French-origin grape was first made famous by the wines of Bordeaux. Today, Cabernet Sauvignon grows all over the world, including several unexpected places such as Lebanon and China.",
       "brian's rating": 1
     },
     "merlot": {
+      "grape": "Merlot",
       "description": "The “other” Bordeaux variety produces exceptional, age-worthy wines even if it is often overshadowed by Cabernet Sauvignon. Merlot is known for its boisterous cherry fruit flavors and refined tannin texture.",
       "brian's rating": 0.5
     },
     "tempranillo": {
+      "grape": "Tempranillo",
       "description": "This is Spain’s most planted and highly-prized red variety. Wines range in style from rosé to red, but Tempranillo is perhaps most known by its two champion regions of Rioja and Ribera del Duero.",
       "brian's rating": 0.7
     },
     "syrah": {
+      "grape": "Syrah",
       "description": "Syrah originated in the Northern Rhône of France and went on to become the most popular wine in Australia (where it’s called Shiraz).",
       "brian's rating": 0.8
     },
     "garnacha": {
+      "grape": "Garnacha",
       "description": "This is a lighter-colored red with high-toned aromas of red and black berries. For what the grape lacks in tannin it makes up for with zingy acidity and elevated alcohol. This grape blends exceptionally well with Syrah and Monastrell.",
       "brian's rating": 0.3
     },
     "pinot noir": {
+      "grape": "Pinot Noir",
       "description": "A red wine that’s quickly rising in popularity around the world. Pinot Noir is loved for its brilliant red fruit flavors and floral notes. The grape is very finicky to grow and tends to prefer cooler climates such as those in Burgundy, France, Oregon, and New Zealand (among others).",
       "brian's rating": 0.1
     }
   },
   "white": {
     "airen": {
+      "grape": "Airen",
       "description": "One of the least-known of the prolific wine grapes of the world, Airén grows mostly in the Castilla-La Mancha region of Spain where vines are spread far apart to survive the arid high plains.",
       "brian's rating": -1
     },
     "chardonnay": {
+      "grape": "Chardonnay",
       "description": "The world’s favorite white wine originated in Burgundy, France, where wines were traditionally aged in oak barriques (barrels). The oak-aging makes Chardonnay one of the boldest styles of white wine in the world.",
       "brian's rating": 0
     },
     "sauvignon blanc": {
+      "grape": "Sauvignon Blanc",
       "description": "Sauvignon means “savage” or “wild,” which describes the state of the wild white grape vines planted around Bordeaux and the Loire Valley of France. Sauvignon Blanc is being recognized as increasingly special, as it was recently identified to be the parent grape of Cabernet Sauvignon.",
       "brian's rating": 0.6
     },
     "trebbiano toscano": {
+      "grape": "Trebbiano Toscano",
       "description": "This is another lesser-known grape at the top of the list of Italian origin wines that’s mostly used in the production of Balsamic vinegar and French Brandy. In Cognac this grape is known as Ugni Blanc.",
       "brian's rating": -1
     }

@@ -7,7 +7,6 @@ from wine import wine
 
 
 def homework_4():
-    """Brian's fourth homework assignment."""
     print("\n\tYou made it...", end="\r")
     time.sleep(1)
     print("\tWe're so glad you're here.", end="\r")
