@@ -4,6 +4,7 @@ import os
 from simple_term_menu import TerminalMenu
 import time
 from wine import wine
+from dad_jokes import dad_jokes
 
 
 def homework_4():
@@ -37,7 +38,8 @@ def homework_4():
     if (main_choice == 2):
         photo.menu()
     if (main_choice == 3):
-        dad_jokes.menu()
+        dad_joke = dad_jokes.get_dad_joke()
+        print(dad_joke)
     if (main_choice == 4):
         print("Get out of here!\n")
 
