@@ -1,0 +1,22 @@
+{
+  "red": {
+    "bordeaux": {
+      "description": "Many red wines are blends of different grapes. The most famous red blend is Bordeaux, the French wine that can be made from cabernet sauvignon, cabernet franc, merlot, and a few other varieties. Because Bordeaux is a protected appellation, similar blends made in California’s Napa Valley, for example, would not be allowed to be called Bordeaux and would be labeled instead as “meritage” (indicating a Bordeaux-style blend)"
+    },
+    "chianti": {
+      "description": "Some red wines, like central Italy’s Chianti, are strongly identified with one grape (in this case, sangiovese) but can have a small percentage of other grapes blended in, according to the rules of the appellation."
+    },
+    "rioja": {
+      "description": "Rioja is a Spanish blended wine made mostly from the tempranillo grape, which is the third most-planted wine grape in the world. The tempranillo grape is blended with mazuelo (also known as carignan), garnacha, and graciano to make rioja, which all work to add body and structure this dry, plush, and woody wine. Rioja wines are classified by the length of time they have spent aging, rather than a classification based on vineyard sites like in Burgundy."
+    },
+    "syrah": {
+      "description": "Syrah is a type of red wine grape that is frequently used to make a single-varietal wine. Syrah is known for being a very drinkable wine with deep, meaty, dark fruit flavors and a fully body."
+    },
+    "primitivo": {
+      "description": "This type of wine is made almost exclusively in southern Italy under the name primitivo, while the rest of the world calls this grape and wine “zinfandel.” Primitivo wines are known for being high in alcohol content, fruity with notes of raisins and black cherries."
+    },
+    "beaujolais": {
+      "description": "Fun, fruity Beaujolais is the red wine that doesn’t act like a red wine. This low-tannin value is the definition of glou-glou (French for “glug-glug,” the sound it makes as you gulp it down!). From banana and bubblegum-scented Beaujolais nouveau to funky, mineral cru Beaujolais that could pass for pinot noir, this wine offers a style for every occasion."
+    }
+  }
+}
