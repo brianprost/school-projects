@@ -24,7 +24,7 @@ def homework_4():
         "Learn about wine",
         "View COVID-19 data",
         "Apply a filter to a photo",
-        "Get a code sent to you",
+        "Get a dad joke emailed to you",
         "Leave"
     ]
     terminal_menu = TerminalMenu(menu_options, title="Now that you have focused your attention, what would you like to do?",
@@ -38,7 +38,7 @@ def homework_4():
     if (main_choice == 2):
         photo.menu()
     if (main_choice == 3):
-        code.menu()
+        dad_jokes.menu()
     if (main_choice == 4):
         print("Get out of here!\n")
 
