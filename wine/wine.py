@@ -25,6 +25,20 @@ def menu():
     stars = get_wine_stars(wine["brian's rating"])
     print(f"Brian rates it: {stars}")
 
+def get_random_wine():
+    # TODO: move to DynamoDB
+    with open('wine/wines.json') as f:
+        wine_db = json.load(f)
+
+    grape_colors_in_db = list(wine_db.keys())
+    grape_color = random.choice(grape_colors_in_db)
+
+    wines_of_grape_color_in_db = list(wine_db[grape_color].keys())
+    random_wine_selection = random.choice(wines_of_grape_color_in_db)
+
+    wine = wine_db[grape_color][random_wine_selection]
+    return wine
+    
 
 def get_specific_wine():
     grape_color = get_grape_color()
