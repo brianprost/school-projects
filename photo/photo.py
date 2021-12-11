@@ -13,7 +13,7 @@ def menu():
     faces = detect_faces(image_grayed)
 
     for (x, y, w, h) in faces:
-        cv2.rectangle(image, (x, y), (x+w, y+h), (299, 9, 20), 2)
+        cv2.rectangle(image, (x, y), (x+w, y+h), (20, 9, 229), 4)
 
     status = cv2.imwrite(
         f"{image_directory}{image_name}_faces_detected.jpeg", image)
