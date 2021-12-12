@@ -1,7 +1,7 @@
 import boto3
 import json
 
-JOKE_TABLE_DYNAMODB = boto3.resource('dynamodb').Table('NytCovidDataDec10')
+COVID_TABLE_DYNAMODB = boto3.resource('dynamodb').Table('NytCovidDataDec10')
 
 def main():
 
@@ -14,7 +14,7 @@ def main():
 
 
 def upload_to_dynamodb(state, cases, deaths):
-    JOKE_TABLE_DYNAMODB.put_item(
+    COVID_TABLE_DYNAMODB.put_item(
         Item={
             'state': state,
             'cases': int(cases),
