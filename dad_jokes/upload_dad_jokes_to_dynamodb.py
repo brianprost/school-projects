@@ -6,17 +6,17 @@ def main():
 
 def create_db():
     table = boto3.resource("dynamodb").create_table(
-        TableName="NytCovidDataDec10",
+        TableName="DadJokesDb",
         KeySchema=[
             {
-                "AttributeName": "state",
+                "AttributeName": "joke_id",
                 "KeyType": "HASH"
             }
         ],
         AttributeDefinitions=[
             {
-                "AttributeName": "state",
-                "AttributeType": "S"
+                "AttributeName": "joke_id",
+                "AttributeType": "N"
             },
         ],
         ProvisionedThroughput={
@@ -30,20 +30,18 @@ def create_db():
 
 
 def upload_to_db():
-    covid_table_dynamodb = boto3.resource('dynamodb').Table('NytCovidDataDec10')
-    with open('nyt_us_states.csv', 'r') as f:
+    dad_joke_table_dynamodb = boto3.resource('dynamodb').Table('DadJokesDb')
+    with open('dad_jokes.csv', 'r') as f:
         next(f)
-        for line in f:
-            state, cases, deaths = line.rstrip().split(',')
-            covid_table_dynamodb.put_item(
+        for joke in f:
+            joke_id, joke = joke.rstrip().split(',')
+            dad_joke_table_dynamodb.put_item(
                 Item={
-                    'state': state,
-                    'cases': int(cases),
-                    'deaths': int(deaths)
+                    'joke_id': int(joke_id),
+                    'joke': joke
                 }
             )
     print("Data added!")
-
 
 if __name__ == "__main__":
     main()
