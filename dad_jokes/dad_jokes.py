@@ -1,6 +1,11 @@
 import boto3
 import random
 
+
+def menu():
+    dad_joke = get_dad_joke()
+
+
 def get_dad_joke():
     dynamodb_r = boto3.resource('dynamodb')
     dad_jokes = dynamodb_r.Table('DadJokesDb')
@@ -12,5 +17,7 @@ def get_dad_joke():
 
     return joke
 
+
 if __name__ == "__main__":
-    get_dad_joke()
+    # print(get_dad_joke())
+    menu()
