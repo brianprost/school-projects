@@ -10,28 +10,29 @@ import shutil
 
 def menu():
     image_url = get_image_url()
-
-
-    # lambda from here on out
     image_from_internet = download_image_from_internet(image_url)
+    filename = image_from_internet[2]
+    image_name = Path(filename).stem
 
-    # if not image_from_internet[0]:
-    #     # implement
-    #     return 404
-    # image_directory = "photo/img/"
-    # image_path = image_directory + "a_famous_photo.jpeg"
-    # image_name = Path(image_path).stem
-    # image = cv2.imread(image_path)
-    # image_grayed = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    image = cv2.imread(filename)
+    image_grayed = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-    # faces = detect_faces(image_grayed)
+    faces = detect_faces(image_grayed)
 
-    # for (x, y, w, h) in faces:
-    #     cv2.rectangle(image, (x, y), (x+w, y+h), (20, 9, 229), 4)
+    for (x, y, w, h) in faces:
+        cv2.rectangle(image, (x, y), (x+w, y+h), (20, 9, 229), 4)
 
-    # status = cv2.imwrite(
-    #     f"{image_directory}{image_name}_faces_detected.jpeg", image)
-    # print("Image faces_deteced.jpg written to filesystem: ", status)
+    image_with_face_boxes = f"faces_on_{filename}"
+    status = cv2.imwrite(image_with_face_boxes, image)
+    
+    s3 = boto3.resource('s3')
+    s3.meta.client.upload_file(image_with_face_boxes, 'edu.umgc.sdev400.prost.homework4', image_with_face_boxes)
+    
+    os.remove(filename)
+    os.remove(image_with_face_boxes)
+    
+    face_image_url = f"https://s3.amazonaws.com/edu.umgc.sdev400.prost.homework4/{image_with_face_boxes}"
+    print(f"Your photo is viewable at {face_image_url}")
 
 
 def get_image_url():
@@ -53,7 +54,7 @@ def get_image_url():
 
 def download_image_from_internet(image_url):
     filename = Path(image_url).name
-    response = requests.get(image_url)
+    response = requests.get(image_url, stream=True)
 
     if response.status_code != 200:
         return [False, "There was an error accessing your image.", None]
@@ -61,11 +62,10 @@ def download_image_from_internet(image_url):
 
     with open(filename,'wb') as f:
         shutil.copyfileobj(response.raw, f)
-        
+
     s3 = boto3.resource('s3')
     s3.meta.client.upload_file(filename, 'edu.umgc.sdev400.prost.homework4', filename)
-    
-    os.remove(filename)
+
     return [True, "File successfully downloaded", filename]
 
 
@@ -81,7 +81,7 @@ def detect_faces(image):
         minNeighbors=3,
         minSize=(75, 75)
     )
-    print("Found {0} Faces!".format(len(faces)))
+    print(f"Found {len(faces)} Faces!")
     return faces
 
 
