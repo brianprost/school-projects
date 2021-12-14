@@ -5,6 +5,7 @@ from simple_term_menu import TerminalMenu
 import time
 from wine import wine
 from dad_jokes import dad_jokes
+from covid import covid
 
 
 def homework_4():
@@ -71,7 +72,7 @@ def homework_4():
         for i in range(len(walk_to_table)):
             print(walk_to_table[i % len(walk_to_table)], end="\r")
             time.sleep(1)
-        
+
         print()
 
 
