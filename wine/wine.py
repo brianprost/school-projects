@@ -1,5 +1,7 @@
 import json
+import boto3
 from simple_term_menu import TerminalMenu
+import pathlib
 import random
 
 WINE_CURSOR_STYLE = ("fg_red", "bold")
@@ -16,18 +18,28 @@ def menu():
         menu_highlight_style=WINE_HIGHLIGHT_STYLE)
     wine_time_choice = wine_time_menu.show()
 
+    wine_db_from_s3 = 'wines_from_s3.json'
+
+    s3_c = boto3.client('s3')
+    s3_c.download_file('edu.umgc.sdev400.prost.homework4', 'wines.json', wine_db_from_s3)
+
+    with open(wine_db_from_s3) as f:
+        wine_db = json.load(f)
     if (wine_time_choice == 0):
-        wine = get_random_wine()
+        wine = get_random_wine(wine_db_from_s3)
     elif (wine_time_choice == 1):
-        wine = get_specific_wine()
-    
+        wine = get_specific_wine(wine_db_from_s3)
+
     print(f"{wine['grape']}: {wine['description']}")
-    stars = get_wine_stars(wine["brian's rating"])
+    stars = get_wine_stars(wine["brian's rating"], wine_db_from_s3)
     print(f"Brian rates it: {stars}")
 
-def get_random_wine():
-    # TODO: move to DynamoDB
-    with open('wine/wines.json') as f:
+    # delete local copy of wine file
+    wine_file = pathlib.Path(wine_db_from_s3)
+    wine_file.unlink()
+
+def get_random_wine(wine_db_from_s3):
+    with open(wine_db_from_s3) as f:
         wine_db = json.load(f)
 
     grape_colors_in_db = list(wine_db.keys())
@@ -38,13 +50,12 @@ def get_random_wine():
 
     wine = wine_db[grape_color][random_wine_selection]
     return wine
-    
 
-def get_specific_wine():
+
+def get_specific_wine(wine_db_from_s3):
     grape_color = get_grape_color()
-    
-    # TODO: move to DynamoDB
-    with open('wine/wines.json') as f:
+
+    with open(wine_db_from_s3) as f:
         wine_db = json.load(f)
 
     types_of_wine = list(wine_db[grape_color].keys())
@@ -71,9 +82,9 @@ def get_grape_color():
         return 'white'
 
 
-def get_wine_stars(wine_rating):
+def get_wine_stars(wine_rating, wine_db_from_s3):
     # TODO: move to DynamoDB
-    with open('wine/wines.json') as f:
+    with open(wine_db_from_s3) as f:
         wine_db = json.load(f)
 
     if wine_rating < 0:
