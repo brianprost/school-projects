@@ -10,3 +10,6 @@ If there are errors importing OpenCV, please try or verify that it has been inst
 For instance, on CentOS, which is was what I used for development of this project, run:
 
 `sudo yum install opencv opencv-devel opencv-python`
+
+### Limitations
+While this started as a very fun final project, the restrictions on AWS permissions from UMGC severly hindered the functionality of this project. See other projects for more fun stuff.
