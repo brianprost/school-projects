@@ -14,7 +14,7 @@ def get_state_to_lookup():
         try:
             state_to_lookup = input(
                 "Enter a state to lookup it\'s COVID-19 cases & deaths: ")
-            with open('us_states.txt', 'r') as us_states:
+            with open('covid/us_states.txt', 'r') as us_states:
                 if state_to_lookup.lower() in us_states.read():
                     return state_to_lookup
                 else:

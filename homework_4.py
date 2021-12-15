@@ -6,6 +6,7 @@ import time
 from wine import wine
 from dad_jokes import dad_jokes
 from covid import covid
+from photo import photo
 
 
 def homework_4():
@@ -22,10 +23,10 @@ def homework_4():
     os.system("clear"), time.sleep(0.5)
 
     menu_options = [
-        "Learn about wine",
-        "View COVID-19 data",
-        "Apply a filter to a photo",
-        "Get a dad joke emailed to you",
+        "Learn about a specific or random wine",
+        "View COVID-19 data for a specific state",
+        "Find faces in a photo from the web",
+        "Read a dad joke",
         "Leave"
     ]
     terminal_menu = TerminalMenu(menu_options, title="Now that you have focused your attention, what would you like to do?",
@@ -39,8 +40,7 @@ def homework_4():
     if (main_choice == 2):
         photo.menu()
     if (main_choice == 3):
-        dad_joke = dad_jokes.get_dad_joke()
-        print(dad_joke)
+        dad_jokes.get_dad_joke()
     if (main_choice == 4):
         print("Get out of here!\n")
 

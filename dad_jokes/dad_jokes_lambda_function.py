@@ -20,6 +20,3 @@ def get_dad_joke():
     joke = joke_obj['Item']['joke']
 
     return joke
-
-    joke = random.choice(joke_db)
-    return joke
