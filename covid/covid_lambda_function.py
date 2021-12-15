@@ -1,3 +1,5 @@
+# Brian Prost
+# covid_lambda_function.py
 import boto3
 import json
 

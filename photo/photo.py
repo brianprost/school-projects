@@ -1,3 +1,5 @@
+# Brian Prost
+# photo.py
 import boto3
 import os
 import cv2

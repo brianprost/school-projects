@@ -1,3 +1,5 @@
+# Brian Prost
+# covid.py
 import boto3
 import json
 import requests

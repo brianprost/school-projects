@@ -1,3 +1,5 @@
+# Brian Prost
+# upload_jokes_to_dynamodb.py
 import boto3
 
 

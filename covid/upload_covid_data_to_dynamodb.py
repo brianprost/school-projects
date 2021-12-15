@@ -1,3 +1,5 @@
+# Brian Prost
+# upload_covid_data_to_dynamodb.py
 import boto3
 
 
