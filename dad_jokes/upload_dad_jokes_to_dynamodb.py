@@ -1,8 +1,10 @@
 import boto3
 
+
 def main():
     create_db()
     upload_to_db()
+
 
 def create_db():
     table = boto3.resource("dynamodb").create_table(
@@ -42,6 +44,7 @@ def upload_to_db():
                 }
             )
     print("Data added!")
+
 
 if __name__ == "__main__":
     main()

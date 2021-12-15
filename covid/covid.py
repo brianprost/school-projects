@@ -23,6 +23,7 @@ def get_state_to_lookup():
         except ValueError as e:
             print(e.with_traceback())
 
+
 def get_covid_data_for_state(state_to_lookup):
     api_url = "https://h1589ixccj.execute-api.us-east-1.amazonaws.com/default/CovidDataFunction"
     response = requests.get(api_url, params={"state": state_to_lookup})
@@ -35,7 +36,8 @@ def print_state_covid_data(state_covid_data):
     cases = state_covid_data['cases']
     deaths = state_covid_data['deaths']
 
-    print(f"As of December 10th, 2021, {state} had {cases:,} cases of COVID-19 and {deaths:,} deaths (New York Times, 2021).")
+    print(
+        f"As of December 10th, 2021, {state} had {cases:,} cases of COVID-19 and {deaths:,} deaths (New York Times, 2021).")
 
 
 if __name__ == "__main__":

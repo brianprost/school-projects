@@ -1,8 +1,10 @@
 import boto3
 
+
 def main():
     create_db()
     upload_to_db()
+
 
 def create_db():
     table = boto3.resource("dynamodb").create_table(
@@ -30,7 +32,8 @@ def create_db():
 
 
 def upload_to_db():
-    covid_table_dynamodb = boto3.resource('dynamodb').Table('NytCovidDataDec10')
+    covid_table_dynamodb = boto3.resource(
+        'dynamodb').Table('NytCovidDataDec10')
     with open('nyt_us_states.csv', 'r') as f:
         next(f)
         for line in f:

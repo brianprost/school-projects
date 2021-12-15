@@ -21,7 +21,8 @@ def menu():
     wine_db_from_s3 = 'wines_from_s3.json'
 
     s3_c = boto3.client('s3')
-    s3_c.download_file('edu.umgc.sdev400.prost.homework4', 'wines.json', wine_db_from_s3)
+    s3_c.download_file('edu.umgc.sdev400.prost.homework4',
+                       'wines.json', wine_db_from_s3)
 
     with open(wine_db_from_s3) as f:
         wine_db = json.load(f)
@@ -37,6 +38,7 @@ def menu():
     # delete local copy of wine file
     wine_file = pathlib.Path(wine_db_from_s3)
     wine_file.unlink()
+
 
 def get_random_wine(wine_db_from_s3):
     with open(wine_db_from_s3) as f:

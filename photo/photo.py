@@ -24,13 +24,14 @@ def menu():
 
     image_with_face_boxes = f"faces_on_{filename}"
     status = cv2.imwrite(image_with_face_boxes, image)
-    
+
     s3 = boto3.resource('s3')
-    s3.meta.client.upload_file(image_with_face_boxes, 'edu.umgc.sdev400.prost.homework4', image_with_face_boxes)
-    
+    s3.meta.client.upload_file(
+        image_with_face_boxes, 'edu.umgc.sdev400.prost.homework4', image_with_face_boxes)
+
     os.remove(filename)
     os.remove(image_with_face_boxes)
-    
+
     face_image_url = f"https://s3.amazonaws.com/edu.umgc.sdev400.prost.homework4/{image_with_face_boxes}"
     print(f"Your photo is viewable at {face_image_url}")
 
@@ -48,7 +49,7 @@ def get_image_url():
             r'(?:/?|[/?]\S+)$', re.IGNORECASE)
 
         if re.match(image_url_regex, image_url) is not None:
-                return image_url
+            return image_url
         print("Invalid URL. Please enter the full web address. ex: https://website.com/image/my_image.jpeg")
 
 
@@ -60,15 +61,14 @@ def download_image_from_internet(image_url):
         return [False, "There was an error accessing your image.", None]
     response.raw.decode_content = True
 
-    with open(filename,'wb') as f:
+    with open(filename, 'wb') as f:
         shutil.copyfileobj(response.raw, f)
 
     s3 = boto3.resource('s3')
-    s3.meta.client.upload_file(filename, 'edu.umgc.sdev400.prost.homework4', filename)
+    s3.meta.client.upload_file(
+        filename, 'edu.umgc.sdev400.prost.homework4', filename)
 
     return [True, "File successfully downloaded", filename]
-
-
 
 
 def detect_faces(image):
