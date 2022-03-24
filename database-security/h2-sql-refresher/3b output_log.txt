@@ -1,0 +1,60 @@
+Initializing connection...
+Connection ready. Took 0.034 seconds.
+
+Statement completed successfully. 0.294 seconds. (Line 1).
+Statement completed successfully. 0.146 seconds. (Line 12).
+Statement completed successfully. 0.126 seconds. (Line 13).
+Statement completed successfully. 0.149 seconds. (Line 14).
+Statement completed successfully. 0.106 seconds. (Line 16).
+Statement completed successfully. 0.223 seconds. (Line 20).
+Statement completed successfully. 0.153 seconds. (Line 34).
+Statement completed successfully. 0.166 seconds. (Line 44).
+Statement completed successfully. 0.152 seconds. (Line 53).
+Statement completed successfully. 0.116 seconds. (Line 66).
+Statement completed successfully. 0.734 seconds. (Line 72).
+Statement completed successfully. 0.537 seconds. (Line 73).
+Statement completed successfully. 0.452 seconds. (Line 74).
+Statement completed successfully. 0.429 seconds. (Line 75).
+Statement completed successfully. 0.516 seconds. (Line 76).
+Statement completed successfully. 0.382 seconds. (Line 77).
+Statement completed successfully. 0.639 seconds. (Line 78).
+Statement completed successfully. 0.283 seconds. (Line 79).
+Statement completed successfully. 0.157 seconds. (Line 80).
+Statement completed successfully. 0.201 seconds. (Line 81).
+Statement completed successfully. 0.201 seconds. (Line 82).
+Statement completed successfully. 0.127 seconds. (Line 83).
+Statement completed successfully. 0.131 seconds. (Line 85).
+Statement completed successfully. 0.144 seconds. (Line 86).
+Statement completed successfully. 0.193 seconds. (Line 88).
+Statement completed successfully. 0.137 seconds. (Line 90).
+Statement completed successfully. 0.195 seconds. (Line 91).
+Statement completed successfully. 0.142 seconds. (Line 93).
+Statement completed successfully. 0.141 seconds. (Line 95).
+Statement completed successfully. 0.124 seconds. (Line 96).
+Statement completed successfully. 0.117 seconds. (Line 98).
+Statement completed successfully. 0.140 seconds. (Line 100).
+Statement completed successfully. 0.175 seconds. (Line 101).
+Statement completed successfully. 0.141 seconds. (Line 102).
+Statement completed successfully. 0.113 seconds. (Line 103).
+Statement completed successfully. 0.162 seconds. (Line 104).
+Statement completed successfully. 0.250 seconds. (Line 105).
+Statement completed successfully. 0.112 seconds. (Line 106).
+Statement completed successfully. 0.150 seconds. (Line 107).
+Statement completed successfully. 0.097 seconds. (Line 108).
+Statement completed successfully. 0.161 seconds. (Line 109).
+Statement completed successfully. 0.106 seconds. (Line 110).
+Statement completed successfully. 0.170 seconds. (Line 111).
+Statement completed successfully. 0.095 seconds. (Line 112).
+Statement completed successfully. 0.115 seconds. (Line 113).
+Statement completed successfully. (15 results). 0.114 seconds. (Line 116).
+Statement completed successfully. (3 results). 0.108 seconds. (Line 123).
+Statement completed successfully. (3 results). 0.116 seconds. (Line 126).
+Statement completed successfully. (15 results). 0.136 seconds. (Line 129).
+Statement completed successfully. (1 rows affected). 0.199 seconds. (Line 133).
+Statement completed successfully. (1 rows affected). 0.103 seconds. (Line 140).
+Statement completed successfully. (1 rows affected). 0.114 seconds. (Line 143).
+Statement completed successfully. (1 rows affected). 0.108 seconds. (Line 147).
+Statement completed successfully. 0.129 seconds. (Line 154).
+Statement completed successfully. (14 results). 0.165 seconds. (Line 180).
+
+Finished. Total time: 10.950 seconds.
