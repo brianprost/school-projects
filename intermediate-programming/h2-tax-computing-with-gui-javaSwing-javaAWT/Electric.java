@@ -4,7 +4,7 @@ Electric.java
 19 October 2020
  */
 
-package ubzrjbexGjb;
+package homeworkGjb;
 
 public class Electric extends Automobile {
 

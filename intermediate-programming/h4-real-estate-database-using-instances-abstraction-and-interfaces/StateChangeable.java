@@ -5,7 +5,7 @@
 * 14 November 2020
 * */
 
-package ubzrjbexSbhe;
+package homeworkSbhe;
 
 public interface StateChangeable<T extends Enum<T>> {
     abstract void changeState(T t);

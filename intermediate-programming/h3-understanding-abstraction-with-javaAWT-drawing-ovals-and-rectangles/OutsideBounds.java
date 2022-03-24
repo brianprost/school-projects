@@ -5,7 +5,7 @@ custom exception
 08 November 2020
  */
 
-package ubzrjbexGuerr;
+package homeworkGuerr;
 
 import javax.swing.JOptionPane;
 

@@ -1,4 +1,4 @@
-# ubzrjbex-3
+# homework-3
 
 A Java program that uses Java AWT to draw ovals and rectangles. They can be computes the sales tax for a collection of automobiles of different types. The price is considered based on the type, miles per gallon, and its weight in lbs.
 

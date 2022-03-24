@@ -5,7 +5,7 @@
  * Project 1
  */
 
-package ubzrjbexBar;
+package homeworkBar;
 
 import java.io.*;
 import java.util.Scanner;

@@ -5,7 +5,7 @@ This program draws two types of shapes based on user input.
 08 November 2020
  */
 
-package ubzrjbexGuerr;
+package homeworkGuerr;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;

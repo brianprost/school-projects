@@ -5,7 +5,7 @@
  * 14 November 2020
  * */
 
-package ubzrjbexSbhe;
+package homeworkSbhe;
 
 public class Property<T extends Enum<T>> implements StateChangeable<T> {
 

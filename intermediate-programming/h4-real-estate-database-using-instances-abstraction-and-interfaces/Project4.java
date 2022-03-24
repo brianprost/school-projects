@@ -5,7 +5,7 @@
 * 14 November 2020
 * */
 
-package ubzrjbexSbhe;
+package homeworkSbhe;
 
 import javax.swing.JButton;
 import javax.swing.JComboBox;

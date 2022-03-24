@@ -4,7 +4,7 @@ Project2.java
 19 October 2020
  */
 
-package ubzrjbexGjb;
+package homeworkGjb;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;

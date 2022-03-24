@@ -5,7 +5,7 @@
  * 14 November 2020
  * */
 
-package ubzrjbexSbhe;
+package homeworkSbhe;
 
 public enum Status {
     FOR_SALE, UNDER_CONTRACT, SOLD;

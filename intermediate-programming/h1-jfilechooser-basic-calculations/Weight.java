@@ -4,7 +4,7 @@
 * 06 October 2020
 * Project 1
 */
-package ubzrjbexBar;
+package homeworkBar;
 
 class Weight {
 

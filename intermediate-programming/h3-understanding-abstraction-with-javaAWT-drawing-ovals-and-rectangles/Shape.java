@@ -4,7 +4,7 @@ Shape.java
 08 November 2020
  */
 
-package ubzrjbexGuerr;
+package homeworkGuerr;
 
 import java.awt.*;
 import java.awt.Rectangle;

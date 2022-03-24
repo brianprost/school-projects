@@ -4,7 +4,7 @@ Drawing.java
 08 November 2020
  */
 
-package ubzrjbexGuerr;
+package homeworkGuerr;
 
 import javax.swing.JPanel;
 import java.awt.Color;
