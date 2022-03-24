@@ -1,4 +1,4 @@
-# ubzrjbex-5
+# homework-5
 
 Create a Python CLI program that loads one of two comma separated values (.CSV) and then performs a chosen stastical analysis on them. This time, data was supplied by the University. However, one of the CSV's had an anomoly or outlier in the dataset that created a very high standard deviation, resulting in some odd looking graphs.
 

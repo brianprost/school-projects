@@ -1,4 +1,4 @@
-# ubzrjbex-2
+# homework-2
 
 Create a Python CLI program that performs several math and security related functions, namely:
 

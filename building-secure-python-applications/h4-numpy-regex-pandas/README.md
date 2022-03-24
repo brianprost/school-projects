@@ -1,4 +1,4 @@
-# ubzrjbex-4
+# homework-4
 
 Create a Python CLI program that requests and accepts a phone number, zip code, and two 3x3 matrices.
 
