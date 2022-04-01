@@ -1,0 +1,170 @@
+[
+  {
+      "game_id": 1,
+      "date": "Nov 27, 2021",
+      "opponent": "Colorado Avalanche",
+      "game_won": false,
+      "points_for": 2,
+      "points_against": 6
+  },
+  {
+      "game_id": 2,
+      "date": "Nov 26, 2021",
+      "opponent": "New Jersey Devils",
+      "game_won": true,
+      "points_for": 4,
+      "points_against": 2
+  },
+  {
+      "game_id": 3,
+      "date": "Nov 24, 2021",
+      "opponent": "Vegas Golden Knights",
+      "game_won": false,
+      "points_for": 2,
+      "points_against": 5
+  },
+  {
+      "game_id": 4,
+      "date": "Nov 22, 2021",
+      "opponent": "Anaheim Ducks",
+      "game_won": true,
+      "points_for": 3,
+      "points_against": 2
+  },
+  {
+      "game_id": 5,
+      "date": "Nov 20, 2021",
+      "opponent": "Montreal Canadiens",
+      "game_won": false,
+      "points_for": 3,
+      "points_against": 6
+  },
+  {
+      "game_id": 6,
+      "date": "Nov 16, 2021",
+      "opponent": "Toronto Maple Leafs",
+      "game_won": false,
+      "points_for": 0,
+      "points_against": 3
+  },
+  {
+      "game_id": 7,
+      "date": "Nov 13, 2021",
+      "opponent": "Arizona Coyotes",
+      "game_won": true,
+      "points_for": 4,
+      "points_against": 1
+  },
+  {
+      "game_id": 8,
+      "date": "Nov 11, 2021",
+      "opponent": "St. Louis Blues",
+      "game_won": true,
+      "points_for": 4,
+      "points_against": 3
+  },
+  {
+      "game_id": 9,
+      "date": "Nov 10, 2021",
+      "opponent": "Dallas Stars",
+      "game_won": true,
+      "points_for": 4,
+      "points_against": 2
+  },
+  {
+      "game_id": 10,
+      "date": "Nov 07, 2021",
+      "opponent": "Chicago Blackhawks",
+      "game_won": false,
+      "points_for": 1,
+      "points_against": 2
+  },
+  {
+      "game_id": 11,
+      "date": "Nov 05, 2021",
+      "opponent": "Vancouver Canucks",
+      "game_won": true,
+      "points_for": 3,
+      "points_against": 2
+  },
+  {
+      "game_id": 12,
+      "date": "Nov 03, 2021",
+      "opponent": "Edmonton Oilers",
+      "game_won": false,
+      "points_for": 2,
+      "points_against": 5
+  },
+  {
+      "game_id": 13,
+      "date": "Nov 02, 2021",
+      "opponent": "Calgary Flames",
+      "game_won": true,
+      "points_for": 3,
+      "points_against": 2
+  },
+  {
+      "game_id": 14,
+      "date": "Oct 30, 2021",
+      "opponent": "New York Islanders",
+      "game_won": true,
+      "points_for": 3,
+      "points_against": 2
+  },
+  {
+      "game_id": 15,
+      "date": "Oct 26, 2021",
+      "opponent": "San Jose Sharks",
+      "game_won": true,
+      "points_for": 3,
+      "points_against": 1
+  },
+  {
+      "game_id": 16,
+      "date": "Oct 24, 2021",
+      "opponent": "Minnesota Wild",
+      "game_won": true,
+      "points_for": 5,
+      "points_against": 2
+  },
+  {
+      "game_id": 17,
+      "date": "Oct 23, 2021",
+      "opponent": "Winnipeg Jets",
+      "game_won": false,
+      "points_for": 4,
+      "points_against": 6
+  },
+  {
+      "game_id": 18,
+      "date": "Oct 21, 2021",
+      "opponent": "New York Rangers",
+      "game_won": false,
+      "points_for": 1,
+      "points_against": 3
+  },
+  {
+      "game_id": 19,
+      "date": "Oct 19, 2021",
+      "opponent": "Los Angeles Kings",
+      "game_won": true,
+      "points_for": 2,
+      "points_against": 1
+  },
+  {
+      "game_id": 20,
+      "date": "Oct 16, 2021",
+      "opponent": "Carolina Hurricanes",
+      "game_won": false,
+      "points_for": 2,
+      "points_against": 3
+  },
+  {
+      "game_id": 21,
+      "date": "Oct 14, 2021",
+      "opponent": "Seattle Kraken",
+      "game_won": false,
+      "points_for": 3,
+      "points_against": 4
+  }
+]

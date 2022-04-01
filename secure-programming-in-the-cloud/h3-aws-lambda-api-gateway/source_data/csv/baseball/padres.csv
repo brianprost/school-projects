@@ -1,0 +1,21 @@
+game_id,date,opponent,game_won,points_for,points_against
+1,"Oct 2, 2021",San Francisco Giants,True,3,2
+2,"Oct 1, 2021",San Francisco Giants,False,0,3
+3,"Sep 30, 2021",Los Angeles Dodgers,False,3,8
+4,"Sep 29, 2021",Los Angeles Dodgers,False,9,11
+5,"Sep 28, 2021",Los Angeles Dodgers,False,1,2
+6,"Sep 26, 2021",Atlanta Braves     ,False,3,4
+7,"Sep 25, 2021",Atlanta Braves     ,False,8,10
+8,"Sep 24, 2021",Atlanta Braves     ,False,0,4
+9,"Sep 23, 2021",San Francisco Giants,True,7,6
+10,"Sep 22, 2021",San Francisco Giants,False,6,8
+11,"Sep 21, 2021",San Francisco Giants,False,5,6
+12,"Sep 19, 2021",St. Louis Cardinals,False,7,8
+13,"Sep 18, 2021",St. Louis Cardinals,False,2,3
+14,"Sep 17, 2021",St. Louis Cardinals,False,2,8
+15,"Sep 16, 2021",San Francisco Giants,True,7,4
+16,"Sep 15, 2021",San Francisco Giants,True,9,6
+17,"Sep 14, 2021",San Francisco Giants,False,1,6
+18,"Sep 13, 2021",San Francisco Giants,False,1,9
+19,"Sep 12, 2021",Los Angeles Dodgers,False,0,8
+20,"Sep 11, 2021",Los Angeles Dodgers,False,4,5

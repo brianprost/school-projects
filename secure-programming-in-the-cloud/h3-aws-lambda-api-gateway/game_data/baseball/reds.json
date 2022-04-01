@@ -1,0 +1,162 @@
+[
+    {
+        "game_id": 1,
+        "date": "Oct 2, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": false,
+        "points_for": 6,
+        "points_against": 8
+    },
+    {
+        "game_id": 2,
+        "date": "Oct 1, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": false,
+        "points_for": 2,
+        "points_against": 9
+    },
+    {
+        "game_id": 3,
+        "date": "Sep 29, 2021",
+        "opponent": "Chicago White Sox",
+        "game_won": false,
+        "points_for": 1,
+        "points_against": 6
+    },
+    {
+        "game_id": 4,
+        "date": "Sep 28, 2021",
+        "opponent": "Chicago White Sox",
+        "game_won": false,
+        "points_for": 1,
+        "points_against": 7
+    },
+    {
+        "game_id": 5,
+        "date": "Sep 27, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": true,
+        "points_for": 3,
+        "points_against": 1
+    },
+    {
+        "game_id": 6,
+        "date": "Sep 26, 2021",
+        "opponent": "Washington Nationals",
+        "game_won": true,
+        "points_for": 9,
+        "points_against": 2
+    },
+    {
+        "game_id": 7,
+        "date": "Sep 25, 2021",
+        "opponent": "Washington Nationals",
+        "game_won": true,
+        "points_for": 7,
+        "points_against": 6
+    },
+    {
+        "game_id": 8,
+        "date": "Sep 24, 2021",
+        "opponent": "Washington Nationals",
+        "game_won": true,
+        "points_for": 8,
+        "points_against": 7
+    },
+    {
+        "game_id": 9,
+        "date": "Sep 23, 2021",
+        "opponent": "Washington Nationals",
+        "game_won": false,
+        "points_for": 2,
+        "points_against": 3
+    },
+    {
+        "game_id": 10,
+        "date": "Sep 21, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": false,
+        "points_for": 2,
+        "points_against": 6
+    },
+    {
+        "game_id": 11,
+        "date": "Sep 20, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": true,
+        "points_for": 9,
+        "points_against": 5
+    },
+    {
+        "game_id": 12,
+        "date": "Sep 19, 2021",
+        "opponent": "Los Angeles Dodgers",
+        "game_won": false,
+        "points_for": 5,
+        "points_against": 8
+    },
+    {
+        "game_id": 13,
+        "date": "Sep 18, 2021",
+        "opponent": "Los Angeles Dodgers",
+        "game_won": false,
+        "points_for": 1,
+        "points_against": 5
+    },
+    {
+        "game_id": 14,
+        "date": "Sep 17, 2021",
+        "opponent": "Los Angeles Dodgers",
+        "game_won": true,
+        "points_for": 3,
+        "points_against": 1
+    },
+    {
+        "game_id": 15,
+        "date": "Sep 16, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": true,
+        "points_for": 1,
+        "points_against": 0
+    },
+    {
+        "game_id": 16,
+        "date": "Sep 15, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": false,
+        "points_for": 4,
+        "points_against": 5
+    },
+    {
+        "game_id": 17,
+        "date": "Sep 14, 2021",
+        "opponent": "Pittsburg Pirates",
+        "game_won": false,
+        "points_for": 5,
+        "points_against": 6
+    },
+    {
+        "game_id": 18,
+        "date": "Sep 12, 2021",
+        "opponent": "St. Louis Cardinals",
+        "game_won": false,
+        "points_for": 0,
+        "points_against": 2
+    },
+    {
+        "game_id": 19,
+        "date": "Sep 11, 2021",
+        "opponent": "St. Louis Cardinals",
+        "game_won": false,
+        "points_for": 4,
+        "points_against": 6
+    },
+    {
+        "game_id": 20,
+        "date": "Sep 10, 2021",
+        "opponent": "St. Louis Cardinals",
+        "game_won": true,
+        "points_for": 4,
+        "points_against": 2
+    }
+]

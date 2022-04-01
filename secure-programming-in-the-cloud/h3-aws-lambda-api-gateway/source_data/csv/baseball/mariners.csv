@@ -1,0 +1,21 @@
+game_id,date,opponent,game_won,points_for,points_against
+1,"Oct 1, 2021",Los Angeles Angeles,False,1,2
+2,"Sep 29, 2021",Oakland Athletics,True,4,2
+3,"Sep 28, 2021",Oakland Athletics,True,4,2
+4,"Sep 27, 2021",Oakland Athletics,True,13,4
+5,"Sep 26, 2021",Los Angeles Angeles,True,5,1
+6,"Sep 25, 2021",Los Angeles Angeles,False,1,14
+7,"Sep 24, 2021",Los Angeles Angeles,True,6,5
+8,"Sep 23, 2021",Oakland Athletics,True,6,5
+9,"Sep 22, 2021",Oakland Athletics,True,4,1
+10,"Sep 21, 2021",Oakland Athletics,True,5,2
+11,"Sep 20, 2021",Oakland Athletics,True,4,2
+12,"Sep 19, 2021",Kansas City Royals,True,7,1
+13,"Sep 18, 2021",Kansas City Royals,False,1,8
+14,"Sep 17, 2021",Kansas City Royals,True,6,2
+15,"Sep 15, 2021",Boston Red Sox,False,4,9
+16,"Sep 14, 2021",Boston Red Sox,False,4,8
+17,"Sep 13, 2021",Boston Red Sox,True,5,4
+18,"Sep 12, 2021",Arizona Diamondbacks,False,4,5
+19,"Sep 11, 2021",Arizona Diamondbacks,False,3,7
+20,"Sep 10, 2021",Arizona Diamondbacks,True,5,4

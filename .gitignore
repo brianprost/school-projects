@@ -1,9 +1,4 @@
 .DS_Store
-
-# python virtual environments
-env
-.env
 venv
-.venv
-virtualenv
-.virtualenv
+.vscode
+.Ulysses-Group.plist
