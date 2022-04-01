@@ -1,14 +1,13 @@
 import json
 import os
 
-
-def main():
-    # querys
-    query_sport = "basketball".lower().strip()
-    query_team = "lakers".lower().strip()
+def lambda_handler(event, context):
+    query_sport = str(event['sport']).lower().strip()
+    query_team = str(event['team']).lower().strip()
 
     team_data = get_team_data(query_sport, query_team)
-    if team_data[0] is "Error.":
+
+    if team_data[0] == "Error.":
         response = [
             team_data[1],
             team_data[2],
@@ -16,7 +15,14 @@ def main():
         ]
     else:
         response = print_team_data(query_sport, query_team, team_data)
-    print(json.dumps(response, indent=4))
+    return {
+        'statusCode': 200,
+        'body': response,
+        'headers': {
+            'Content-Type': 'application/json',
+        },
+    }
+
 
 
 def check_if_data_exists(query_sport, query_team, directory_path):
@@ -48,9 +54,9 @@ def get_team_data(query_sport, query_team):
             data = json.load(json_data)
 
         return list(filter(lambda x: x["game_id"] < 6, data))
-    elif there_is_data[0] is "NO_SPORT":
+    elif there_is_data[0] == "NO_SPORT":
         return ["Error.", f"Sport: {query_sport} was not found. Please try from one of these sports:", there_is_data[1]]
-    elif there_is_data[0] is "NO_TEAM":
+    elif there_is_data[0] == "NO_TEAM":
         return ["Error.", f"Team: {query_team} was not found. Please try from one of these teams:", there_is_data[1]]
 
 
@@ -73,7 +79,3 @@ def print_team_data(query_sport, query_team, team_data):
 
         game_log[query_sport][query_team].append(response)
     return game_log
-
-
-if __name__ == "__main__":
-    main()
